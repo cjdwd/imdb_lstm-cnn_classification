@@ -1,0 +1,1327 @@
+/GPUFS/nsccgz_ywang_zfd/.conda/envs/cjd_py37/lib/python3.7/site-packages/torch/nn/functional.py:1639: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+/GPUFS/nsccgz_ywang_zfd/.conda/envs/cjd_py37/lib/python3.7/site-packages/torch/nn/modules/rnn.py:582: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at  /opt/conda/conda-bld/pytorch_1607370141920/work/aten/src/ATen/native/cudnn/RNN.cpp:775.)
+  self.dropout, self.training, self.bidirectional, self.batch_first)
+Training at Epoch 1 iteration 4 with loss tensor(0.7101, device='cuda:0', dtype=torch.float64)
+Training at Epoch 1 iteration 8 with loss tensor(0.6196, device='cuda:0', dtype=torch.float64)
+Training at Epoch 1 iteration 12 with loss tensor(0.5644, device='cuda:0', dtype=torch.float64)
+Training at Epoch 1 iteration 16 with loss tensor(0.5301, device='cuda:0', dtype=torch.float64)
+Training at Epoch 1 iteration 20 with loss tensor(0.5042, device='cuda:0', dtype=torch.float64)
+Training at Epoch 1 iteration 24 with loss tensor(0.4828, device='cuda:0', dtype=torch.float64)
+Training at Epoch 1 iteration 28 with loss tensor(0.4664, device='cuda:0', dtype=torch.float64)
+Precision:  0.9801214798453893
+Recall:  0.38746998471949357
+F1:  0.5553813210571739
+max f1:  0.5553813210571739
+Training at Epoch 2 iteration 4 with loss tensor(0.5387, device='cuda:0', dtype=torch.float64)
+Training at Epoch 2 iteration 8 with loss tensor(0.5021, device='cuda:0', dtype=torch.float64)
+Training at Epoch 2 iteration 12 with loss tensor(0.4610, device='cuda:0', dtype=torch.float64)
+Training at Epoch 2 iteration 16 with loss tensor(0.4345, device='cuda:0', dtype=torch.float64)
+Training at Epoch 2 iteration 20 with loss tensor(0.4149, device='cuda:0', dtype=torch.float64)
+Training at Epoch 2 iteration 24 with loss tensor(0.4006, device='cuda:0', dtype=torch.float64)
+Training at Epoch 2 iteration 28 with loss tensor(0.3886, device='cuda:0', dtype=torch.float64)
+Precision:  0.8891722698817528
+Recall:  0.8380681818181818
+F1:  0.862863714635311
+max f1:  0.862863714635311
+Training at Epoch 3 iteration 4 with loss tensor(0.4102, device='cuda:0', dtype=torch.float64)
+Training at Epoch 3 iteration 8 with loss tensor(0.3828, device='cuda:0', dtype=torch.float64)
+Training at Epoch 3 iteration 12 with loss tensor(0.3732, device='cuda:0', dtype=torch.float64)
+Training at Epoch 3 iteration 16 with loss tensor(0.3632, device='cuda:0', dtype=torch.float64)
+Training at Epoch 3 iteration 20 with loss tensor(0.3525, device='cuda:0', dtype=torch.float64)
+Training at Epoch 3 iteration 24 with loss tensor(0.3429, device='cuda:0', dtype=torch.float64)
+Training at Epoch 3 iteration 28 with loss tensor(0.3376, device='cuda:0', dtype=torch.float64)
+Precision:  0.8895818895818896
+Recall:  0.8432231223998248
+F1:  0.8657818744588852
+max f1:  0.8657818744588852
+Training at Epoch 4 iteration 4 with loss tensor(0.3089, device='cuda:0', dtype=torch.float64)
+Training at Epoch 4 iteration 8 with loss tensor(0.3059, device='cuda:0', dtype=torch.float64)
+Training at Epoch 4 iteration 12 with loss tensor(0.3015, device='cuda:0', dtype=torch.float64)
+Training at Epoch 4 iteration 16 with loss tensor(0.3005, device='cuda:0', dtype=torch.float64)
+Training at Epoch 4 iteration 20 with loss tensor(0.3017, device='cuda:0', dtype=torch.float64)
+Training at Epoch 4 iteration 24 with loss tensor(0.2963, device='cuda:0', dtype=torch.float64)
+Training at Epoch 4 iteration 28 with loss tensor(0.2949, device='cuda:0', dtype=torch.float64)
+Precision:  0.9178698224852071
+Recall:  0.8423110338835795
+F1:  0.8784681836716635
+max f1:  0.8784681836716635
+Training at Epoch 5 iteration 4 with loss tensor(0.2951, device='cuda:0', dtype=torch.float64)
+Training at Epoch 5 iteration 8 with loss tensor(0.3212, device='cuda:0', dtype=torch.float64)
+Training at Epoch 5 iteration 12 with loss tensor(0.3177, device='cuda:0', dtype=torch.float64)
+Training at Epoch 5 iteration 16 with loss tensor(0.3125, device='cuda:0', dtype=torch.float64)
+Training at Epoch 5 iteration 20 with loss tensor(0.3118, device='cuda:0', dtype=torch.float64)
+Training at Epoch 5 iteration 24 with loss tensor(0.3125, device='cuda:0', dtype=torch.float64)
+Training at Epoch 5 iteration 28 with loss tensor(0.3107, device='cuda:0', dtype=torch.float64)
+Precision:  0.972972972972973
+Recall:  0.5423580786026201
+F1:  0.6964806843559015
+max f1:  0.8784681836716635
+Training at Epoch 6 iteration 4 with loss tensor(0.4272, device='cuda:0', dtype=torch.float64)
+Training at Epoch 6 iteration 8 with loss tensor(0.3714, device='cuda:0', dtype=torch.float64)
+Training at Epoch 6 iteration 12 with loss tensor(0.3421, device='cuda:0', dtype=torch.float64)
+Training at Epoch 6 iteration 16 with loss tensor(0.3268, device='cuda:0', dtype=torch.float64)
+Training at Epoch 6 iteration 20 with loss tensor(0.3145, device='cuda:0', dtype=torch.float64)
+Training at Epoch 6 iteration 24 with loss tensor(0.3044, device='cuda:0', dtype=torch.float64)
+Training at Epoch 6 iteration 28 with loss tensor(0.2983, device='cuda:0', dtype=torch.float64)
+Precision:  0.9218037898776685
+Recall:  0.8361618798955613
+F1:  0.8768962496181926
+max f1:  0.8784681836716635
+Training at Epoch 7 iteration 4 with loss tensor(0.2662, device='cuda:0', dtype=torch.float64)
+Training at Epoch 7 iteration 8 with loss tensor(0.2628, device='cuda:0', dtype=torch.float64)
+Training at Epoch 7 iteration 12 with loss tensor(0.2569, device='cuda:0', dtype=torch.float64)
+Training at Epoch 7 iteration 16 with loss tensor(0.2561, device='cuda:0', dtype=torch.float64)
+Training at Epoch 7 iteration 20 with loss tensor(0.2532, device='cuda:0', dtype=torch.float64)
+Training at Epoch 7 iteration 24 with loss tensor(0.2519, device='cuda:0', dtype=torch.float64)
+Training at Epoch 7 iteration 28 with loss tensor(0.2480, device='cuda:0', dtype=torch.float64)
+Precision:  0.8198815253609775
+Recall:  0.9626168224299065
+F1:  0.8855338429044505
+max f1:  0.8855338429044505
+Training at Epoch 8 iteration 4 with loss tensor(0.2317, device='cuda:0', dtype=torch.float64)
+Training at Epoch 8 iteration 8 with loss tensor(0.2363, device='cuda:0', dtype=torch.float64)
+Training at Epoch 8 iteration 12 with loss tensor(0.2336, device='cuda:0', dtype=torch.float64)
+Training at Epoch 8 iteration 16 with loss tensor(0.2327, device='cuda:0', dtype=torch.float64)
+Training at Epoch 8 iteration 20 with loss tensor(0.2298, device='cuda:0', dtype=torch.float64)
+Training at Epoch 8 iteration 24 with loss tensor(0.2305, device='cuda:0', dtype=torch.float64)
+Training at Epoch 8 iteration 28 with loss tensor(0.2296, device='cuda:0', dtype=torch.float64)
+Precision:  0.8807281858129316
+Recall:  0.9216115611999124
+F1:  0.9007056847214897
+max f1:  0.9007056847214897
+Training at Epoch 9 iteration 4 with loss tensor(0.2373, device='cuda:0', dtype=torch.float64)
+Training at Epoch 9 iteration 8 with loss tensor(0.2350, device='cuda:0', dtype=torch.float64)
+Training at Epoch 9 iteration 12 with loss tensor(0.2344, device='cuda:0', dtype=torch.float64)
+Training at Epoch 9 iteration 16 with loss tensor(0.2312, device='cuda:0', dtype=torch.float64)
+Training at Epoch 9 iteration 20 with loss tensor(0.2250, device='cuda:0', dtype=torch.float64)
+Training at Epoch 9 iteration 24 with loss tensor(0.2240, device='cuda:0', dtype=torch.float64)
+Training at Epoch 9 iteration 28 with loss tensor(0.2204, device='cuda:0', dtype=torch.float64)
+Precision:  0.9769996567112942
+Recall:  0.6195037004788855
+F1:  0.7582251811257011
+max f1:  0.9007056847214897
+Training at Epoch 10 iteration 4 with loss tensor(0.1853, device='cuda:0', dtype=torch.float64)
+Training at Epoch 10 iteration 8 with loss tensor(0.1897, device='cuda:0', dtype=torch.float64)
+Training at Epoch 10 iteration 12 with loss tensor(0.1911, device='cuda:0', dtype=torch.float64)
+Training at Epoch 10 iteration 16 with loss tensor(0.1921, device='cuda:0', dtype=torch.float64)
+Training at Epoch 10 iteration 20 with loss tensor(0.1922, device='cuda:0', dtype=torch.float64)
+Training at Epoch 10 iteration 24 with loss tensor(0.1929, device='cuda:0', dtype=torch.float64)
+Training at Epoch 10 iteration 28 with loss tensor(0.1933, device='cuda:0', dtype=torch.float64)
+Precision:  0.9544152122948685
+Recall:  0.7965217391304348
+F1:  0.8683488345555839
+max f1:  0.9007056847214897
+Training at Epoch 11 iteration 4 with loss tensor(0.1715, device='cuda:0', dtype=torch.float64)
+Training at Epoch 11 iteration 8 with loss tensor(0.1808, device='cuda:0', dtype=torch.float64)
+Training at Epoch 11 iteration 12 with loss tensor(0.1834, device='cuda:0', dtype=torch.float64)
+Training at Epoch 11 iteration 16 with loss tensor(0.1877, device='cuda:0', dtype=torch.float64)
+Training at Epoch 11 iteration 20 with loss tensor(0.1857, device='cuda:0', dtype=torch.float64)
+Training at Epoch 11 iteration 24 with loss tensor(0.1838, device='cuda:0', dtype=torch.float64)
+Training at Epoch 11 iteration 28 with loss tensor(0.1839, device='cuda:0', dtype=torch.float64)
+Precision:  0.9232171337434495
+Recall:  0.8797221016066001
+F1:  0.9009444697187331
+max f1:  0.9009444697187331
+Training at Epoch 12 iteration 4 with loss tensor(0.1648, device='cuda:0', dtype=torch.float64)
+Training at Epoch 12 iteration 8 with loss tensor(0.1715, device='cuda:0', dtype=torch.float64)
+Training at Epoch 12 iteration 12 with loss tensor(0.1723, device='cuda:0', dtype=torch.float64)
+Training at Epoch 12 iteration 16 with loss tensor(0.1720, device='cuda:0', dtype=torch.float64)
+Training at Epoch 12 iteration 20 with loss tensor(0.1725, device='cuda:0', dtype=torch.float64)
+Training at Epoch 12 iteration 24 with loss tensor(0.1724, device='cuda:0', dtype=torch.float64)
+Training at Epoch 12 iteration 28 with loss tensor(0.1736, device='cuda:0', dtype=torch.float64)
+Precision:  0.8491555037856727
+Recall:  0.9521114497170222
+F1:  0.897690625286923
+max f1:  0.9009444697187331
+Training at Epoch 13 iteration 4 with loss tensor(0.1544, device='cuda:0', dtype=torch.float64)
+Training at Epoch 13 iteration 8 with loss tensor(0.1580, device='cuda:0', dtype=torch.float64)
+Training at Epoch 13 iteration 12 with loss tensor(0.1638, device='cuda:0', dtype=torch.float64)
+Training at Epoch 13 iteration 16 with loss tensor(0.1638, device='cuda:0', dtype=torch.float64)
+Training at Epoch 13 iteration 20 with loss tensor(0.1665, device='cuda:0', dtype=torch.float64)
+Training at Epoch 13 iteration 24 with loss tensor(0.1665, device='cuda:0', dtype=torch.float64)
+Training at Epoch 13 iteration 28 with loss tensor(0.1667, device='cuda:0', dtype=torch.float64)
+Precision:  0.904304129342364
+Recall:  0.9054911397943557
+F1:  0.9048967453000104
+max f1:  0.9048967453000104
+Training at Epoch 14 iteration 4 with loss tensor(0.1525, device='cuda:0', dtype=torch.float64)
+Training at Epoch 14 iteration 8 with loss tensor(0.1538, device='cuda:0', dtype=torch.float64)
+Training at Epoch 14 iteration 12 with loss tensor(0.1517, device='cuda:0', dtype=torch.float64)
+Training at Epoch 14 iteration 16 with loss tensor(0.1494, device='cuda:0', dtype=torch.float64)
+Training at Epoch 14 iteration 20 with loss tensor(0.1553, device='cuda:0', dtype=torch.float64)
+Training at Epoch 14 iteration 24 with loss tensor(0.1574, device='cuda:0', dtype=torch.float64)
+Training at Epoch 14 iteration 28 with loss tensor(0.1571, device='cuda:0', dtype=torch.float64)
+Precision:  0.9217430983344741
+Recall:  0.8792165397170838
+F1:  0.899977223602751
+max f1:  0.9048967453000104
+Training at Epoch 15 iteration 4 with loss tensor(0.1440, device='cuda:0', dtype=torch.float64)
+Training at Epoch 15 iteration 8 with loss tensor(0.1490, device='cuda:0', dtype=torch.float64)
+Training at Epoch 15 iteration 12 with loss tensor(0.1493, device='cuda:0', dtype=torch.float64)
+Training at Epoch 15 iteration 16 with loss tensor(0.1451, device='cuda:0', dtype=torch.float64)
+Training at Epoch 15 iteration 20 with loss tensor(0.1486, device='cuda:0', dtype=torch.float64)
+Training at Epoch 15 iteration 24 with loss tensor(0.1495, device='cuda:0', dtype=torch.float64)
+Training at Epoch 15 iteration 28 with loss tensor(0.1501, device='cuda:0', dtype=torch.float64)
+Precision:  0.9534698218558894
+Recall:  0.7802436901653612
+F1:  0.8582022093116448
+max f1:  0.9048967453000104
+Training at Epoch 16 iteration 4 with loss tensor(0.1343, device='cuda:0', dtype=torch.float64)
+Training at Epoch 16 iteration 8 with loss tensor(0.1370, device='cuda:0', dtype=torch.float64)
+Training at Epoch 16 iteration 12 with loss tensor(0.1365, device='cuda:0', dtype=torch.float64)
+Training at Epoch 16 iteration 16 with loss tensor(0.1420, device='cuda:0', dtype=torch.float64)
+Training at Epoch 16 iteration 20 with loss tensor(0.1415, device='cuda:0', dtype=torch.float64)
+Training at Epoch 16 iteration 24 with loss tensor(0.1408, device='cuda:0', dtype=torch.float64)
+Training at Epoch 16 iteration 28 with loss tensor(0.1412, device='cuda:0', dtype=torch.float64)
+Precision:  0.8631915318554024
+Recall:  0.9399739016963897
+F1:  0.8999474446861714
+max f1:  0.9048967453000104
+Training at Epoch 17 iteration 4 with loss tensor(0.1313, device='cuda:0', dtype=torch.float64)
+Training at Epoch 17 iteration 8 with loss tensor(0.1308, device='cuda:0', dtype=torch.float64)
+Training at Epoch 17 iteration 12 with loss tensor(0.1334, device='cuda:0', dtype=torch.float64)
+Training at Epoch 17 iteration 16 with loss tensor(0.1340, device='cuda:0', dtype=torch.float64)
+Training at Epoch 17 iteration 20 with loss tensor(0.1334, device='cuda:0', dtype=torch.float64)
+Training at Epoch 17 iteration 24 with loss tensor(0.1349, device='cuda:0', dtype=torch.float64)
+Training at Epoch 17 iteration 28 with loss tensor(0.1362, device='cuda:0', dtype=torch.float64)
+Precision:  0.9259691732835124
+Recall:  0.8676148796498906
+F1:  0.8958422479312594
+max f1:  0.9048967453000104
+Training at Epoch 18 iteration 4 with loss tensor(0.1153, device='cuda:0', dtype=torch.float64)
+Training at Epoch 18 iteration 8 with loss tensor(0.1250, device='cuda:0', dtype=torch.float64)
+Training at Epoch 18 iteration 12 with loss tensor(0.1275, device='cuda:0', dtype=torch.float64)
+Training at Epoch 18 iteration 16 with loss tensor(0.1264, device='cuda:0', dtype=torch.float64)
+Training at Epoch 18 iteration 20 with loss tensor(0.1291, device='cuda:0', dtype=torch.float64)
+Training at Epoch 18 iteration 24 with loss tensor(0.1288, device='cuda:0', dtype=torch.float64)
+Training at Epoch 18 iteration 28 with loss tensor(0.1290, device='cuda:0', dtype=torch.float64)
+Precision:  0.9571351058057515
+Recall:  0.7709790209790209
+F1:  0.8540300068916361
+max f1:  0.9048967453000104
+Training at Epoch 19 iteration 4 with loss tensor(0.1227, device='cuda:0', dtype=torch.float64)
+Training at Epoch 19 iteration 8 with loss tensor(0.1258, device='cuda:0', dtype=torch.float64)
+Training at Epoch 19 iteration 12 with loss tensor(0.1238, device='cuda:0', dtype=torch.float64)
+Training at Epoch 19 iteration 16 with loss tensor(0.1229, device='cuda:0', dtype=torch.float64)
+Training at Epoch 19 iteration 20 with loss tensor(0.1226, device='cuda:0', dtype=torch.float64)
+Training at Epoch 19 iteration 24 with loss tensor(0.1221, device='cuda:0', dtype=torch.float64)
+Training at Epoch 19 iteration 28 with loss tensor(0.1231, device='cuda:0', dtype=torch.float64)
+Precision:  0.8846153846153846
+Recall:  0.9153728405860485
+F1:  0.8997308273896881
+max f1:  0.9048967453000104
+Training at Epoch 20 iteration 4 with loss tensor(0.1050, device='cuda:0', dtype=torch.float64)
+Training at Epoch 20 iteration 8 with loss tensor(0.0996, device='cuda:0', dtype=torch.float64)
+Training at Epoch 20 iteration 12 with loss tensor(0.0975, device='cuda:0', dtype=torch.float64)
+Training at Epoch 20 iteration 16 with loss tensor(0.0995, device='cuda:0', dtype=torch.float64)
+Training at Epoch 20 iteration 20 with loss tensor(0.0999, device='cuda:0', dtype=torch.float64)
+Training at Epoch 20 iteration 24 with loss tensor(0.1006, device='cuda:0', dtype=torch.float64)
+Training at Epoch 20 iteration 28 with loss tensor(0.1017, device='cuda:0', dtype=torch.float64)
+Precision:  0.858783917607447
+Recall:  0.9440452863052471
+F1:  0.8993979661673401
+max f1:  0.9048967453000104
+Training at Epoch 21 iteration 4 with loss tensor(0.0829, device='cuda:0', dtype=torch.float64)
+Training at Epoch 21 iteration 8 with loss tensor(0.0883, device='cuda:0', dtype=torch.float64)
+Training at Epoch 21 iteration 12 with loss tensor(0.0902, device='cuda:0', dtype=torch.float64)
+Training at Epoch 21 iteration 16 with loss tensor(0.0927, device='cuda:0', dtype=torch.float64)
+Training at Epoch 21 iteration 20 with loss tensor(0.0930, device='cuda:0', dtype=torch.float64)
+Training at Epoch 21 iteration 24 with loss tensor(0.0947, device='cuda:0', dtype=torch.float64)
+Training at Epoch 21 iteration 28 with loss tensor(0.0955, device='cuda:0', dtype=torch.float64)
+Precision:  0.8857563644014307
+Recall:  0.9174112006973196
+F1:  0.9013054303620328
+max f1:  0.9048967453000104
+Training at Epoch 22 iteration 4 with loss tensor(0.0855, device='cuda:0', dtype=torch.float64)
+Training at Epoch 22 iteration 8 with loss tensor(0.0884, device='cuda:0', dtype=torch.float64)
+Training at Epoch 22 iteration 12 with loss tensor(0.0907, device='cuda:0', dtype=torch.float64)
+Training at Epoch 22 iteration 16 with loss tensor(0.0914, device='cuda:0', dtype=torch.float64)
+Training at Epoch 22 iteration 20 with loss tensor(0.0925, device='cuda:0', dtype=torch.float64)
+Training at Epoch 22 iteration 24 with loss tensor(0.0930, device='cuda:0', dtype=torch.float64)
+Training at Epoch 22 iteration 28 with loss tensor(0.0926, device='cuda:0', dtype=torch.float64)
+Precision:  0.8545239503252513
+Recall:  0.9446502505992591
+F1:  0.8973292466492673
+max f1:  0.9048967453000104
+Training at Epoch 23 iteration 4 with loss tensor(0.0837, device='cuda:0', dtype=torch.float64)
+Training at Epoch 23 iteration 8 with loss tensor(0.0895, device='cuda:0', dtype=torch.float64)
+Training at Epoch 23 iteration 12 with loss tensor(0.0884, device='cuda:0', dtype=torch.float64)
+Training at Epoch 23 iteration 16 with loss tensor(0.0864, device='cuda:0', dtype=torch.float64)
+Training at Epoch 23 iteration 20 with loss tensor(0.0862, device='cuda:0', dtype=torch.float64)
+Training at Epoch 23 iteration 24 with loss tensor(0.0857, device='cuda:0', dtype=torch.float64)
+Training at Epoch 23 iteration 28 with loss tensor(0.0875, device='cuda:0', dtype=torch.float64)
+Precision:  0.9360421369450714
+Recall:  0.8148471615720524
+F1:  0.8712496483046454
+max f1:  0.9048967453000104
+Training at Epoch 24 iteration 4 with loss tensor(0.0850, device='cuda:0', dtype=torch.float64)
+Training at Epoch 24 iteration 8 with loss tensor(0.0783, device='cuda:0', dtype=torch.float64)
+Training at Epoch 24 iteration 12 with loss tensor(0.0801, device='cuda:0', dtype=torch.float64)
+Training at Epoch 24 iteration 16 with loss tensor(0.0788, device='cuda:0', dtype=torch.float64)
+Training at Epoch 24 iteration 20 with loss tensor(0.0796, device='cuda:0', dtype=torch.float64)
+Training at Epoch 24 iteration 24 with loss tensor(0.0790, device='cuda:0', dtype=torch.float64)
+Training at Epoch 24 iteration 28 with loss tensor(0.0818, device='cuda:0', dtype=torch.float64)
+Precision:  0.8665455279628508
+Recall:  0.9338555265448216
+F1:  0.8989417983219258
+max f1:  0.9048967453000104
+Training at Epoch 25 iteration 4 with loss tensor(0.0777, device='cuda:0', dtype=torch.float64)
+Training at Epoch 25 iteration 8 with loss tensor(0.0789, device='cuda:0', dtype=torch.float64)
+Training at Epoch 25 iteration 12 with loss tensor(0.0789, device='cuda:0', dtype=torch.float64)
+Training at Epoch 25 iteration 16 with loss tensor(0.0777, device='cuda:0', dtype=torch.float64)
+Training at Epoch 25 iteration 20 with loss tensor(0.0762, device='cuda:0', dtype=torch.float64)
+Training at Epoch 25 iteration 24 with loss tensor(0.0766, device='cuda:0', dtype=torch.float64)
+Training at Epoch 25 iteration 28 with loss tensor(0.0766, device='cuda:0', dtype=torch.float64)
+Precision:  0.8714168714168714
+Recall:  0.9284467713787086
+F1:  0.899027806374681
+max f1:  0.9048967453000104
+Training at Epoch 26 iteration 4 with loss tensor(0.0670, device='cuda:0', dtype=torch.float64)
+Training at Epoch 26 iteration 8 with loss tensor(0.0654, device='cuda:0', dtype=torch.float64)
+Training at Epoch 26 iteration 12 with loss tensor(0.0659, device='cuda:0', dtype=torch.float64)
+Training at Epoch 26 iteration 16 with loss tensor(0.0681, device='cuda:0', dtype=torch.float64)
+Training at Epoch 26 iteration 20 with loss tensor(0.0696, device='cuda:0', dtype=torch.float64)
+Training at Epoch 26 iteration 24 with loss tensor(0.0716, device='cuda:0', dtype=torch.float64)
+Training at Epoch 26 iteration 28 with loss tensor(0.0718, device='cuda:0', dtype=torch.float64)
+Precision:  0.8662613981762918
+Recall:  0.9319816873773709
+F1:  0.8979201055830511
+max f1:  0.9048967453000104
+Training at Epoch 27 iteration 4 with loss tensor(0.0590, device='cuda:0', dtype=torch.float64)
+Training at Epoch 27 iteration 8 with loss tensor(0.0613, device='cuda:0', dtype=torch.float64)
+Training at Epoch 27 iteration 12 with loss tensor(0.0651, device='cuda:0', dtype=torch.float64)
+Training at Epoch 27 iteration 16 with loss tensor(0.0682, device='cuda:0', dtype=torch.float64)
+Training at Epoch 27 iteration 20 with loss tensor(0.0703, device='cuda:0', dtype=torch.float64)
+Training at Epoch 27 iteration 24 with loss tensor(0.0692, device='cuda:0', dtype=torch.float64)
+Training at Epoch 27 iteration 28 with loss tensor(0.0687, device='cuda:0', dtype=torch.float64)
+Precision:  0.8783983140147523
+Recall:  0.9136343708899606
+F1:  0.8956694260558425
+max f1:  0.9048967453000104
+Training at Epoch 28 iteration 4 with loss tensor(0.0588, device='cuda:0', dtype=torch.float64)
+Training at Epoch 28 iteration 8 with loss tensor(0.0649, device='cuda:0', dtype=torch.float64)
+Training at Epoch 28 iteration 12 with loss tensor(0.0669, device='cuda:0', dtype=torch.float64)
+Training at Epoch 28 iteration 16 with loss tensor(0.0678, device='cuda:0', dtype=torch.float64)
+Training at Epoch 28 iteration 20 with loss tensor(0.0661, device='cuda:0', dtype=torch.float64)
+Training at Epoch 28 iteration 24 with loss tensor(0.0664, device='cuda:0', dtype=torch.float64)
+Training at Epoch 28 iteration 28 with loss tensor(0.0667, device='cuda:0', dtype=torch.float64)
+Precision:  0.8943265482893027
+Recall:  0.9017467248908297
+F1:  0.8980208089890255
+max f1:  0.9048967453000104
+Training at Epoch 29 iteration 4 with loss tensor(0.0546, device='cuda:0', dtype=torch.float64)
+Training at Epoch 29 iteration 8 with loss tensor(0.0573, device='cuda:0', dtype=torch.float64)
+Training at Epoch 29 iteration 12 with loss tensor(0.0565, device='cuda:0', dtype=torch.float64)
+Training at Epoch 29 iteration 16 with loss tensor(0.0604, device='cuda:0', dtype=torch.float64)
+Training at Epoch 29 iteration 20 with loss tensor(0.0606, device='cuda:0', dtype=torch.float64)
+Training at Epoch 29 iteration 24 with loss tensor(0.0618, device='cuda:0', dtype=torch.float64)
+Training at Epoch 29 iteration 28 with loss tensor(0.0632, device='cuda:0', dtype=torch.float64)
+Precision:  0.8641547861507128
+Recall:  0.9276344556187145
+F1:  0.8947696398096334
+max f1:  0.9048967453000104
+Training at Epoch 30 iteration 4 with loss tensor(0.0604, device='cuda:0', dtype=torch.float64)
+Training at Epoch 30 iteration 8 with loss tensor(0.0564, device='cuda:0', dtype=torch.float64)
+Training at Epoch 30 iteration 12 with loss tensor(0.0557, device='cuda:0', dtype=torch.float64)
+Training at Epoch 30 iteration 16 with loss tensor(0.0543, device='cuda:0', dtype=torch.float64)
+Training at Epoch 30 iteration 20 with loss tensor(0.0534, device='cuda:0', dtype=torch.float64)
+Training at Epoch 30 iteration 24 with loss tensor(0.0532, device='cuda:0', dtype=torch.float64)
+Training at Epoch 30 iteration 28 with loss tensor(0.0530, device='cuda:0', dtype=torch.float64)
+Precision:  0.8962429008300568
+Recall:  0.8917626602912411
+F1:  0.8939966674508533
+max f1:  0.9048967453000104
+Training at Epoch 31 iteration 4 with loss tensor(0.0415, device='cuda:0', dtype=torch.float64)
+Training at Epoch 31 iteration 8 with loss tensor(0.0456, device='cuda:0', dtype=torch.float64)
+Training at Epoch 31 iteration 12 with loss tensor(0.0490, device='cuda:0', dtype=torch.float64)
+Training at Epoch 31 iteration 16 with loss tensor(0.0477, device='cuda:0', dtype=torch.float64)
+Training at Epoch 31 iteration 20 with loss tensor(0.0483, device='cuda:0', dtype=torch.float64)
+Training at Epoch 31 iteration 24 with loss tensor(0.0497, device='cuda:0', dtype=torch.float64)
+Training at Epoch 31 iteration 28 with loss tensor(0.0500, device='cuda:0', dtype=torch.float64)
+Precision:  0.8753122398001665
+Recall:  0.9167211685197296
+F1:  0.8955377816004422
+max f1:  0.9048967453000104
+Training at Epoch 32 iteration 4 with loss tensor(0.0475, device='cuda:0', dtype=torch.float64)
+Training at Epoch 32 iteration 8 with loss tensor(0.0473, device='cuda:0', dtype=torch.float64)
+Training at Epoch 32 iteration 12 with loss tensor(0.0455, device='cuda:0', dtype=torch.float64)
+Training at Epoch 32 iteration 16 with loss tensor(0.0465, device='cuda:0', dtype=torch.float64)
+Training at Epoch 32 iteration 20 with loss tensor(0.0477, device='cuda:0', dtype=torch.float64)
+Training at Epoch 32 iteration 24 with loss tensor(0.0489, device='cuda:0', dtype=torch.float64)
+Training at Epoch 32 iteration 28 with loss tensor(0.0495, device='cuda:0', dtype=torch.float64)
+Precision:  0.8463194988253719
+Recall:  0.9412148922273024
+F1:  0.8912478263243675
+max f1:  0.9048967453000104
+Training at Epoch 33 iteration 4 with loss tensor(0.0456, device='cuda:0', dtype=torch.float64)
+Training at Epoch 33 iteration 8 with loss tensor(0.0459, device='cuda:0', dtype=torch.float64)
+Training at Epoch 33 iteration 12 with loss tensor(0.0437, device='cuda:0', dtype=torch.float64)
+Training at Epoch 33 iteration 16 with loss tensor(0.0428, device='cuda:0', dtype=torch.float64)
+Training at Epoch 33 iteration 20 with loss tensor(0.0446, device='cuda:0', dtype=torch.float64)
+Training at Epoch 33 iteration 24 with loss tensor(0.0444, device='cuda:0', dtype=torch.float64)
+Training at Epoch 33 iteration 28 with loss tensor(0.0448, device='cuda:0', dtype=torch.float64)
+Precision:  0.900423256850078
+Recall:  0.882725485913955
+F1:  0.8914860461456957
+max f1:  0.9048967453000104
+Training at Epoch 34 iteration 4 with loss tensor(0.0384, device='cuda:0', dtype=torch.float64)
+Training at Epoch 34 iteration 8 with loss tensor(0.0440, device='cuda:0', dtype=torch.float64)
+Training at Epoch 34 iteration 12 with loss tensor(0.0469, device='cuda:0', dtype=torch.float64)
+Training at Epoch 34 iteration 16 with loss tensor(0.0448, device='cuda:0', dtype=torch.float64)
+Training at Epoch 34 iteration 20 with loss tensor(0.0440, device='cuda:0', dtype=torch.float64)
+Training at Epoch 34 iteration 24 with loss tensor(0.0440, device='cuda:0', dtype=torch.float64)
+Training at Epoch 34 iteration 28 with loss tensor(0.0438, device='cuda:0', dtype=torch.float64)
+Precision:  0.9196217494089834
+Recall:  0.8517626450624042
+F1:  0.8843919072362697
+max f1:  0.9048967453000104
+Training at Epoch 35 iteration 4 with loss tensor(0.0361, device='cuda:0', dtype=torch.float64)
+Training at Epoch 35 iteration 8 with loss tensor(0.0366, device='cuda:0', dtype=torch.float64)
+Training at Epoch 35 iteration 12 with loss tensor(0.0376, device='cuda:0', dtype=torch.float64)
+Training at Epoch 35 iteration 16 with loss tensor(0.0384, device='cuda:0', dtype=torch.float64)
+Training at Epoch 35 iteration 20 with loss tensor(0.0401, device='cuda:0', dtype=torch.float64)
+Training at Epoch 35 iteration 24 with loss tensor(0.0412, device='cuda:0', dtype=torch.float64)
+Training at Epoch 35 iteration 28 with loss tensor(0.0406, device='cuda:0', dtype=torch.float64)
+Precision:  0.9005281690140845
+Recall:  0.8895652173913043
+F1:  0.8950126233786125
+max f1:  0.9048967453000104
+Training at Epoch 36 iteration 4 with loss tensor(0.0344, device='cuda:0', dtype=torch.float64)
+Training at Epoch 36 iteration 8 with loss tensor(0.0381, device='cuda:0', dtype=torch.float64)
+Training at Epoch 36 iteration 12 with loss tensor(0.0371, device='cuda:0', dtype=torch.float64)
+Training at Epoch 36 iteration 16 with loss tensor(0.0375, device='cuda:0', dtype=torch.float64)
+Training at Epoch 36 iteration 20 with loss tensor(0.0386, device='cuda:0', dtype=torch.float64)
+Training at Epoch 36 iteration 24 with loss tensor(0.0390, device='cuda:0', dtype=torch.float64)
+Training at Epoch 36 iteration 28 with loss tensor(0.0393, device='cuda:0', dtype=torch.float64)
+Precision:  0.8773898586866168
+Recall:  0.9166304819800261
+F1:  0.8965805153170041
+max f1:  0.9048967453000104
+Training at Epoch 37 iteration 4 with loss tensor(0.0323, device='cuda:0', dtype=torch.float64)
+Training at Epoch 37 iteration 8 with loss tensor(0.0350, device='cuda:0', dtype=torch.float64)
+Training at Epoch 37 iteration 12 with loss tensor(0.0359, device='cuda:0', dtype=torch.float64)
+Training at Epoch 37 iteration 16 with loss tensor(0.0349, device='cuda:0', dtype=torch.float64)
+Training at Epoch 37 iteration 20 with loss tensor(0.0361, device='cuda:0', dtype=torch.float64)
+Training at Epoch 37 iteration 24 with loss tensor(0.0368, device='cuda:0', dtype=torch.float64)
+Training at Epoch 37 iteration 28 with loss tensor(0.0365, device='cuda:0', dtype=torch.float64)
+Precision:  0.8827776598003823
+Recall:  0.9052700348432056
+F1:  0.893881878318298
+max f1:  0.9048967453000104
+Training at Epoch 38 iteration 4 with loss tensor(0.0289, device='cuda:0', dtype=torch.float64)
+Training at Epoch 38 iteration 8 with loss tensor(0.0305, device='cuda:0', dtype=torch.float64)
+Training at Epoch 38 iteration 12 with loss tensor(0.0337, device='cuda:0', dtype=torch.float64)
+Training at Epoch 38 iteration 16 with loss tensor(0.0349, device='cuda:0', dtype=torch.float64)
+Training at Epoch 38 iteration 20 with loss tensor(0.0364, device='cuda:0', dtype=torch.float64)
+Training at Epoch 38 iteration 24 with loss tensor(0.0359, device='cuda:0', dtype=torch.float64)
+Training at Epoch 38 iteration 28 with loss tensor(0.0358, device='cuda:0', dtype=torch.float64)
+Precision:  0.8735014468788755
+Recall:  0.9188954120460969
+F1:  0.8956231095188163
+max f1:  0.9048967453000104
+Training at Epoch 39 iteration 4 with loss tensor(0.0299, device='cuda:0', dtype=torch.float64)
+Training at Epoch 39 iteration 8 with loss tensor(0.0335, device='cuda:0', dtype=torch.float64)
+Training at Epoch 39 iteration 12 with loss tensor(0.0336, device='cuda:0', dtype=torch.float64)
+Training at Epoch 39 iteration 16 with loss tensor(0.0330, device='cuda:0', dtype=torch.float64)
+Training at Epoch 39 iteration 20 with loss tensor(0.0335, device='cuda:0', dtype=torch.float64)
+Training at Epoch 39 iteration 24 with loss tensor(0.0330, device='cuda:0', dtype=torch.float64)
+Training at Epoch 39 iteration 28 with loss tensor(0.0334, device='cuda:0', dtype=torch.float64)
+Precision:  0.8807261980156217
+Recall:  0.909328683522232
+F1:  0.8947984277418775
+max f1:  0.9048967453000104
+Training at Epoch 40 iteration 4 with loss tensor(0.0273, device='cuda:0', dtype=torch.float64)
+Training at Epoch 40 iteration 8 with loss tensor(0.0287, device='cuda:0', dtype=torch.float64)
+Training at Epoch 40 iteration 12 with loss tensor(0.0281, device='cuda:0', dtype=torch.float64)
+Training at Epoch 40 iteration 16 with loss tensor(0.0283, device='cuda:0', dtype=torch.float64)
+Training at Epoch 40 iteration 20 with loss tensor(0.0287, device='cuda:0', dtype=torch.float64)
+Training at Epoch 40 iteration 24 with loss tensor(0.0299, device='cuda:0', dtype=torch.float64)
+Training at Epoch 40 iteration 28 with loss tensor(0.0297, device='cuda:0', dtype=torch.float64)
+Precision:  0.8858301323090055
+Recall:  0.9041603136571553
+F1:  0.8949008690297521
+max f1:  0.9048967453000104
+Training at Epoch 41 iteration 4 with loss tensor(0.0273, device='cuda:0', dtype=torch.float64)
+Training at Epoch 41 iteration 8 with loss tensor(0.0272, device='cuda:0', dtype=torch.float64)
+Training at Epoch 41 iteration 12 with loss tensor(0.0264, device='cuda:0', dtype=torch.float64)
+Training at Epoch 41 iteration 16 with loss tensor(0.0264, device='cuda:0', dtype=torch.float64)
+Training at Epoch 41 iteration 20 with loss tensor(0.0272, device='cuda:0', dtype=torch.float64)
+Training at Epoch 41 iteration 24 with loss tensor(0.0272, device='cuda:0', dtype=torch.float64)
+Training at Epoch 41 iteration 28 with loss tensor(0.0275, device='cuda:0', dtype=torch.float64)
+Precision:  0.9006337709370756
+Recall:  0.8695367132867133
+F1:  0.8848115971081115
+max f1:  0.9048967453000104
+Training at Epoch 42 iteration 4 with loss tensor(0.0253, device='cuda:0', dtype=torch.float64)
+Training at Epoch 42 iteration 8 with loss tensor(0.0243, device='cuda:0', dtype=torch.float64)
+Training at Epoch 42 iteration 12 with loss tensor(0.0264, device='cuda:0', dtype=torch.float64)
+Training at Epoch 42 iteration 16 with loss tensor(0.0268, device='cuda:0', dtype=torch.float64)
+Training at Epoch 42 iteration 20 with loss tensor(0.0259, device='cuda:0', dtype=torch.float64)
+Training at Epoch 42 iteration 24 with loss tensor(0.0253, device='cuda:0', dtype=torch.float64)
+Training at Epoch 42 iteration 28 with loss tensor(0.0263, device='cuda:0', dtype=torch.float64)
+Precision:  0.8989966555183947
+Recall:  0.8807339449541285
+F1:  0.8897710988612719
+max f1:  0.9048967453000104
+Training at Epoch 43 iteration 4 with loss tensor(0.0291, device='cuda:0', dtype=torch.float64)
+Training at Epoch 43 iteration 8 with loss tensor(0.0288, device='cuda:0', dtype=torch.float64)
+Training at Epoch 43 iteration 12 with loss tensor(0.0258, device='cuda:0', dtype=torch.float64)
+Training at Epoch 43 iteration 16 with loss tensor(0.0265, device='cuda:0', dtype=torch.float64)
+Training at Epoch 43 iteration 20 with loss tensor(0.0265, device='cuda:0', dtype=torch.float64)
+Training at Epoch 43 iteration 24 with loss tensor(0.0266, device='cuda:0', dtype=torch.float64)
+Training at Epoch 43 iteration 28 with loss tensor(0.0273, device='cuda:0', dtype=torch.float64)
+Precision:  0.8608976951071573
+Recall:  0.9280732345248475
+F1:  0.8932237507577176
+max f1:  0.9048967453000104
+Training at Epoch 44 iteration 4 with loss tensor(0.0215, device='cuda:0', dtype=torch.float64)
+Training at Epoch 44 iteration 8 with loss tensor(0.0231, device='cuda:0', dtype=torch.float64)
+Training at Epoch 44 iteration 12 with loss tensor(0.0231, device='cuda:0', dtype=torch.float64)
+Training at Epoch 44 iteration 16 with loss tensor(0.0231, device='cuda:0', dtype=torch.float64)
+Training at Epoch 44 iteration 20 with loss tensor(0.0236, device='cuda:0', dtype=torch.float64)
+Training at Epoch 44 iteration 24 with loss tensor(0.0243, device='cuda:0', dtype=torch.float64)
+Training at Epoch 44 iteration 28 with loss tensor(0.0244, device='cuda:0', dtype=torch.float64)
+Precision:  0.8935435111207083
+Recall:  0.8989789267868781
+F1:  0.8962524781291994
+max f1:  0.9048967453000104
+Training at Epoch 45 iteration 4 with loss tensor(0.0232, device='cuda:0', dtype=torch.float64)
+Training at Epoch 45 iteration 8 with loss tensor(0.0227, device='cuda:0', dtype=torch.float64)
+Training at Epoch 45 iteration 12 with loss tensor(0.0240, device='cuda:0', dtype=torch.float64)
+Training at Epoch 45 iteration 16 with loss tensor(0.0242, device='cuda:0', dtype=torch.float64)
+Training at Epoch 45 iteration 20 with loss tensor(0.0246, device='cuda:0', dtype=torch.float64)
+Training at Epoch 45 iteration 24 with loss tensor(0.0242, device='cuda:0', dtype=torch.float64)
+Training at Epoch 45 iteration 28 with loss tensor(0.0246, device='cuda:0', dtype=torch.float64)
+Precision:  0.8821541710665258
+Recall:  0.9088337684943429
+F1:  0.895294752495758
+max f1:  0.9048967453000104
+Training at Epoch 46 iteration 4 with loss tensor(0.0214, device='cuda:0', dtype=torch.float64)
+Training at Epoch 46 iteration 8 with loss tensor(0.0231, device='cuda:0', dtype=torch.float64)
+Training at Epoch 46 iteration 12 with loss tensor(0.0238, device='cuda:0', dtype=torch.float64)
+Training at Epoch 46 iteration 16 with loss tensor(0.0242, device='cuda:0', dtype=torch.float64)
+Training at Epoch 46 iteration 20 with loss tensor(0.0230, device='cuda:0', dtype=torch.float64)
+Training at Epoch 46 iteration 24 with loss tensor(0.0228, device='cuda:0', dtype=torch.float64)
+Training at Epoch 46 iteration 28 with loss tensor(0.0228, device='cuda:0', dtype=torch.float64)
+Precision:  0.8971466489714665
+Recall:  0.8838526912181303
+F1:  0.8904495549128808
+max f1:  0.9048967453000104
+Training at Epoch 47 iteration 4 with loss tensor(0.0195, device='cuda:0', dtype=torch.float64)
+Training at Epoch 47 iteration 8 with loss tensor(0.0198, device='cuda:0', dtype=torch.float64)
+Training at Epoch 47 iteration 12 with loss tensor(0.0222, device='cuda:0', dtype=torch.float64)
+Training at Epoch 47 iteration 16 with loss tensor(0.0227, device='cuda:0', dtype=torch.float64)
+Training at Epoch 47 iteration 20 with loss tensor(0.0227, device='cuda:0', dtype=torch.float64)
+Training at Epoch 47 iteration 24 with loss tensor(0.0232, device='cuda:0', dtype=torch.float64)
+Training at Epoch 47 iteration 28 with loss tensor(0.0233, device='cuda:0', dtype=torch.float64)
+Precision:  0.8940455341506129
+Recall:  0.889760348583878
+F1:  0.8918972942813924
+max f1:  0.9048967453000104
+Training at Epoch 48 iteration 4 with loss tensor(0.0242, device='cuda:0', dtype=torch.float64)
+Training at Epoch 48 iteration 8 with loss tensor(0.0226, device='cuda:0', dtype=torch.float64)
+Training at Epoch 48 iteration 12 with loss tensor(0.0221, device='cuda:0', dtype=torch.float64)
+Training at Epoch 48 iteration 16 with loss tensor(0.0230, device='cuda:0', dtype=torch.float64)
+Training at Epoch 48 iteration 20 with loss tensor(0.0231, device='cuda:0', dtype=torch.float64)
+Training at Epoch 48 iteration 24 with loss tensor(0.0229, device='cuda:0', dtype=torch.float64)
+Training at Epoch 48 iteration 28 with loss tensor(0.0227, device='cuda:0', dtype=torch.float64)
+Precision:  0.8777145266708835
+Recall:  0.9097465034965035
+F1:  0.8934430026825795
+max f1:  0.9048967453000104
+Training at Epoch 49 iteration 4 with loss tensor(0.0204, device='cuda:0', dtype=torch.float64)
+Training at Epoch 49 iteration 8 with loss tensor(0.0203, device='cuda:0', dtype=torch.float64)
+Training at Epoch 49 iteration 12 with loss tensor(0.0206, device='cuda:0', dtype=torch.float64)
+Training at Epoch 49 iteration 16 with loss tensor(0.0209, device='cuda:0', dtype=torch.float64)
+Training at Epoch 49 iteration 20 with loss tensor(0.0208, device='cuda:0', dtype=torch.float64)
+Training at Epoch 49 iteration 24 with loss tensor(0.0215, device='cuda:0', dtype=torch.float64)
+Training at Epoch 49 iteration 28 with loss tensor(0.0213, device='cuda:0', dtype=torch.float64)
+Precision:  0.8924895992993213
+Recall:  0.8907342657342657
+F1:  0.8916105685778184
+max f1:  0.9048967453000104
+Training at Epoch 50 iteration 4 with loss tensor(0.0209, device='cuda:0', dtype=torch.float64)
+Training at Epoch 50 iteration 8 with loss tensor(0.0227, device='cuda:0', dtype=torch.float64)
+Training at Epoch 50 iteration 12 with loss tensor(0.0211, device='cuda:0', dtype=torch.float64)
+Training at Epoch 50 iteration 16 with loss tensor(0.0205, device='cuda:0', dtype=torch.float64)
+Training at Epoch 50 iteration 20 with loss tensor(0.0207, device='cuda:0', dtype=torch.float64)
+Training at Epoch 50 iteration 24 with loss tensor(0.0207, device='cuda:0', dtype=torch.float64)
+Training at Epoch 50 iteration 28 with loss tensor(0.0209, device='cuda:0', dtype=torch.float64)
+Precision:  0.8711147948611687
+Recall:  0.9149075081610446
+F1:  0.8924737599336229
+max f1:  0.9048967453000104
+Training at Epoch 51 iteration 4 with loss tensor(0.0232, device='cuda:0', dtype=torch.float64)
+Training at Epoch 51 iteration 8 with loss tensor(0.0225, device='cuda:0', dtype=torch.float64)
+Training at Epoch 51 iteration 12 with loss tensor(0.0245, device='cuda:0', dtype=torch.float64)
+Training at Epoch 51 iteration 16 with loss tensor(0.0231, device='cuda:0', dtype=torch.float64)
+Training at Epoch 51 iteration 20 with loss tensor(0.0219, device='cuda:0', dtype=torch.float64)
+Training at Epoch 51 iteration 24 with loss tensor(0.0214, device='cuda:0', dtype=torch.float64)
+Training at Epoch 51 iteration 28 with loss tensor(0.0210, device='cuda:0', dtype=torch.float64)
+Precision:  0.8936631944444444
+Recall:  0.8961915125136017
+F1:  0.894925067750924
+max f1:  0.9048967453000104
+Training at Epoch 52 iteration 4 with loss tensor(0.0207, device='cuda:0', dtype=torch.float64)
+Training at Epoch 52 iteration 8 with loss tensor(0.0192, device='cuda:0', dtype=torch.float64)
+Training at Epoch 52 iteration 12 with loss tensor(0.0188, device='cuda:0', dtype=torch.float64)
+Training at Epoch 52 iteration 16 with loss tensor(0.0186, device='cuda:0', dtype=torch.float64)
+Training at Epoch 52 iteration 20 with loss tensor(0.0191, device='cuda:0', dtype=torch.float64)
+Training at Epoch 52 iteration 24 with loss tensor(0.0190, device='cuda:0', dtype=torch.float64)
+Training at Epoch 52 iteration 28 with loss tensor(0.0188, device='cuda:0', dtype=torch.float64)
+Precision:  0.8909287257019438
+Recall:  0.8988886467640008
+F1:  0.8948904860173279
+max f1:  0.9048967453000104
+Training at Epoch 53 iteration 4 with loss tensor(0.0162, device='cuda:0', dtype=torch.float64)
+Training at Epoch 53 iteration 8 with loss tensor(0.0154, device='cuda:0', dtype=torch.float64)
+Training at Epoch 53 iteration 12 with loss tensor(0.0170, device='cuda:0', dtype=torch.float64)
+Training at Epoch 53 iteration 16 with loss tensor(0.0173, device='cuda:0', dtype=torch.float64)
+Training at Epoch 53 iteration 20 with loss tensor(0.0173, device='cuda:0', dtype=torch.float64)
+Training at Epoch 53 iteration 24 with loss tensor(0.0174, device='cuda:0', dtype=torch.float64)
+Training at Epoch 53 iteration 28 with loss tensor(0.0177, device='cuda:0', dtype=torch.float64)
+Precision:  0.8909921671018277
+Recall:  0.8943000655164883
+F1:  0.8926425517731138
+max f1:  0.9048967453000104
+Training at Epoch 54 iteration 4 with loss tensor(0.0172, device='cuda:0', dtype=torch.float64)
+Training at Epoch 54 iteration 8 with loss tensor(0.0180, device='cuda:0', dtype=torch.float64)
+Training at Epoch 54 iteration 12 with loss tensor(0.0188, device='cuda:0', dtype=torch.float64)
+Training at Epoch 54 iteration 16 with loss tensor(0.0175, device='cuda:0', dtype=torch.float64)
+Training at Epoch 54 iteration 20 with loss tensor(0.0178, device='cuda:0', dtype=torch.float64)
+Training at Epoch 54 iteration 24 with loss tensor(0.0176, device='cuda:0', dtype=torch.float64)
+Training at Epoch 54 iteration 28 with loss tensor(0.0182, device='cuda:0', dtype=torch.float64)
+Precision:  0.8784518828451883
+Recall:  0.9124293785310734
+F1:  0.8951178118408838
+max f1:  0.9048967453000104
+Training at Epoch 55 iteration 4 with loss tensor(0.0186, device='cuda:0', dtype=torch.float64)
+Training at Epoch 55 iteration 8 with loss tensor(0.0196, device='cuda:0', dtype=torch.float64)
+Training at Epoch 55 iteration 12 with loss tensor(0.0182, device='cuda:0', dtype=torch.float64)
+Training at Epoch 55 iteration 16 with loss tensor(0.0193, device='cuda:0', dtype=torch.float64)
+Training at Epoch 55 iteration 20 with loss tensor(0.0183, device='cuda:0', dtype=torch.float64)
+Training at Epoch 55 iteration 24 with loss tensor(0.0183, device='cuda:0', dtype=torch.float64)
+Training at Epoch 55 iteration 28 with loss tensor(0.0180, device='cuda:0', dtype=torch.float64)
+Precision:  0.887127864639109
+Recall:  0.9035776614310645
+F1:  0.8952767074346695
+max f1:  0.9048967453000104
+Training at Epoch 56 iteration 4 with loss tensor(0.0138, device='cuda:0', dtype=torch.float64)
+Training at Epoch 56 iteration 8 with loss tensor(0.0159, device='cuda:0', dtype=torch.float64)
+Training at Epoch 56 iteration 12 with loss tensor(0.0157, device='cuda:0', dtype=torch.float64)
+Training at Epoch 56 iteration 16 with loss tensor(0.0155, device='cuda:0', dtype=torch.float64)
+Training at Epoch 56 iteration 20 with loss tensor(0.0164, device='cuda:0', dtype=torch.float64)
+Training at Epoch 56 iteration 24 with loss tensor(0.0170, device='cuda:0', dtype=torch.float64)
+Training at Epoch 56 iteration 28 with loss tensor(0.0175, device='cuda:0', dtype=torch.float64)
+Precision:  0.892578125
+Recall:  0.8921908893709327
+F1:  0.8923839651771317
+max f1:  0.9048967453000104
+Training at Epoch 57 iteration 4 with loss tensor(0.0117, device='cuda:0', dtype=torch.float64)
+Training at Epoch 57 iteration 8 with loss tensor(0.0148, device='cuda:0', dtype=torch.float64)
+Training at Epoch 57 iteration 12 with loss tensor(0.0156, device='cuda:0', dtype=torch.float64)
+Training at Epoch 57 iteration 16 with loss tensor(0.0156, device='cuda:0', dtype=torch.float64)
+Training at Epoch 57 iteration 20 with loss tensor(0.0156, device='cuda:0', dtype=torch.float64)
+Training at Epoch 57 iteration 24 with loss tensor(0.0159, device='cuda:0', dtype=torch.float64)
+Training at Epoch 57 iteration 28 with loss tensor(0.0171, device='cuda:0', dtype=torch.float64)
+Precision:  0.9050647285941403
+Recall:  0.8668696976288884
+F1:  0.8855550557881586
+max f1:  0.9048967453000104
+Training at Epoch 58 iteration 4 with loss tensor(0.0178, device='cuda:0', dtype=torch.float64)
+Training at Epoch 58 iteration 8 with loss tensor(0.0169, device='cuda:0', dtype=torch.float64)
+Training at Epoch 58 iteration 12 with loss tensor(0.0163, device='cuda:0', dtype=torch.float64)
+Training at Epoch 58 iteration 16 with loss tensor(0.0163, device='cuda:0', dtype=torch.float64)
+Training at Epoch 58 iteration 20 with loss tensor(0.0158, device='cuda:0', dtype=torch.float64)
+Training at Epoch 58 iteration 24 with loss tensor(0.0166, device='cuda:0', dtype=torch.float64)
+Training at Epoch 58 iteration 28 with loss tensor(0.0167, device='cuda:0', dtype=torch.float64)
+Precision:  0.8761265981974429
+Recall:  0.9116684841875682
+F1:  0.8935437498772428
+max f1:  0.9048967453000104
+Training at Epoch 59 iteration 4 with loss tensor(0.0139, device='cuda:0', dtype=torch.float64)
+Training at Epoch 59 iteration 8 with loss tensor(0.0162, device='cuda:0', dtype=torch.float64)
+Training at Epoch 59 iteration 12 with loss tensor(0.0156, device='cuda:0', dtype=torch.float64)
+Training at Epoch 59 iteration 16 with loss tensor(0.0161, device='cuda:0', dtype=torch.float64)
+Training at Epoch 59 iteration 20 with loss tensor(0.0162, device='cuda:0', dtype=torch.float64)
+Training at Epoch 59 iteration 24 with loss tensor(0.0163, device='cuda:0', dtype=torch.float64)
+Training at Epoch 59 iteration 28 with loss tensor(0.0157, device='cuda:0', dtype=torch.float64)
+Precision:  0.8847975882859603
+Recall:  0.8987314085739283
+F1:  0.8917095694752424
+max f1:  0.9048967453000104
+Training at Epoch 60 iteration 4 with loss tensor(0.0116, device='cuda:0', dtype=torch.float64)
+Training at Epoch 60 iteration 8 with loss tensor(0.0130, device='cuda:0', dtype=torch.float64)
+Training at Epoch 60 iteration 12 with loss tensor(0.0146, device='cuda:0', dtype=torch.float64)
+Training at Epoch 60 iteration 16 with loss tensor(0.0160, device='cuda:0', dtype=torch.float64)
+Training at Epoch 60 iteration 20 with loss tensor(0.0150, device='cuda:0', dtype=torch.float64)
+Training at Epoch 60 iteration 24 with loss tensor(0.0150, device='cuda:0', dtype=torch.float64)
+Training at Epoch 60 iteration 28 with loss tensor(0.0150, device='cuda:0', dtype=torch.float64)
+Precision:  0.8853367433930094
+Recall:  0.9022589052997394
+F1:  0.8937172281001639
+max f1:  0.9048967453000104
+Training at Epoch 61 iteration 4 with loss tensor(0.0131, device='cuda:0', dtype=torch.float64)
+Training at Epoch 61 iteration 8 with loss tensor(0.0149, device='cuda:0', dtype=torch.float64)
+Training at Epoch 61 iteration 12 with loss tensor(0.0149, device='cuda:0', dtype=torch.float64)
+Training at Epoch 61 iteration 16 with loss tensor(0.0143, device='cuda:0', dtype=torch.float64)
+Training at Epoch 61 iteration 20 with loss tensor(0.0149, device='cuda:0', dtype=torch.float64)
+Training at Epoch 61 iteration 24 with loss tensor(0.0144, device='cuda:0', dtype=torch.float64)
+Training at Epoch 61 iteration 28 with loss tensor(0.0146, device='cuda:0', dtype=torch.float64)
+Precision:  0.8855796014570387
+Recall:  0.9037830745681172
+F1:  0.8945882446407706
+max f1:  0.9048967453000104
+Training at Epoch 62 iteration 4 with loss tensor(0.0153, device='cuda:0', dtype=torch.float64)
+Training at Epoch 62 iteration 8 with loss tensor(0.0145, device='cuda:0', dtype=torch.float64)
+Training at Epoch 62 iteration 12 with loss tensor(0.0137, device='cuda:0', dtype=torch.float64)
+Training at Epoch 62 iteration 16 with loss tensor(0.0136, device='cuda:0', dtype=torch.float64)
+Training at Epoch 62 iteration 20 with loss tensor(0.0136, device='cuda:0', dtype=torch.float64)
+Training at Epoch 62 iteration 24 with loss tensor(0.0138, device='cuda:0', dtype=torch.float64)
+Training at Epoch 62 iteration 28 with loss tensor(0.0142, device='cuda:0', dtype=torch.float64)
+Precision:  0.8979771328056289
+Recall:  0.8862847222222222
+F1:  0.8920921168850108
+max f1:  0.9048967453000104
+Training at Epoch 63 iteration 4 with loss tensor(0.0146, device='cuda:0', dtype=torch.float64)
+Training at Epoch 63 iteration 8 with loss tensor(0.0164, device='cuda:0', dtype=torch.float64)
+Training at Epoch 63 iteration 12 with loss tensor(0.0144, device='cuda:0', dtype=torch.float64)
+Training at Epoch 63 iteration 16 with loss tensor(0.0151, device='cuda:0', dtype=torch.float64)
+Training at Epoch 63 iteration 20 with loss tensor(0.0148, device='cuda:0', dtype=torch.float64)
+Training at Epoch 63 iteration 24 with loss tensor(0.0146, device='cuda:0', dtype=torch.float64)
+Training at Epoch 63 iteration 28 with loss tensor(0.0144, device='cuda:0', dtype=torch.float64)
+Precision:  0.8881692573402418
+Recall:  0.8976652847479817
+F1:  0.8928915238885357
+max f1:  0.9048967453000104
+Training at Epoch 64 iteration 4 with loss tensor(0.0153, device='cuda:0', dtype=torch.float64)
+Training at Epoch 64 iteration 8 with loss tensor(0.0137, device='cuda:0', dtype=torch.float64)
+Training at Epoch 64 iteration 12 with loss tensor(0.0145, device='cuda:0', dtype=torch.float64)
+Training at Epoch 64 iteration 16 with loss tensor(0.0137, device='cuda:0', dtype=torch.float64)
+Training at Epoch 64 iteration 20 with loss tensor(0.0137, device='cuda:0', dtype=torch.float64)
+Training at Epoch 64 iteration 24 with loss tensor(0.0141, device='cuda:0', dtype=torch.float64)
+Training at Epoch 64 iteration 28 with loss tensor(0.0143, device='cuda:0', dtype=torch.float64)
+Precision:  0.8877660718125134
+Recall:  0.9001526051885764
+F1:  0.893915932152444
+max f1:  0.9048967453000104
+Training at Epoch 65 iteration 4 with loss tensor(0.0140, device='cuda:0', dtype=torch.float64)
+Training at Epoch 65 iteration 8 with loss tensor(0.0141, device='cuda:0', dtype=torch.float64)
+Training at Epoch 65 iteration 12 with loss tensor(0.0131, device='cuda:0', dtype=torch.float64)
+Training at Epoch 65 iteration 16 with loss tensor(0.0144, device='cuda:0', dtype=torch.float64)
+Training at Epoch 65 iteration 20 with loss tensor(0.0142, device='cuda:0', dtype=torch.float64)
+Training at Epoch 65 iteration 24 with loss tensor(0.0144, device='cuda:0', dtype=torch.float64)
+Training at Epoch 65 iteration 28 with loss tensor(0.0143, device='cuda:0', dtype=torch.float64)
+Precision:  0.8898268398268399
+Recall:  0.8958378731749836
+F1:  0.8928217391198562
+max f1:  0.9048967453000104
+Training at Epoch 66 iteration 4 with loss tensor(0.0121, device='cuda:0', dtype=torch.float64)
+Training at Epoch 66 iteration 8 with loss tensor(0.0125, device='cuda:0', dtype=torch.float64)
+Training at Epoch 66 iteration 12 with loss tensor(0.0129, device='cuda:0', dtype=torch.float64)
+Training at Epoch 66 iteration 16 with loss tensor(0.0136, device='cuda:0', dtype=torch.float64)
+Training at Epoch 66 iteration 20 with loss tensor(0.0138, device='cuda:0', dtype=torch.float64)
+Training at Epoch 66 iteration 24 with loss tensor(0.0138, device='cuda:0', dtype=torch.float64)
+Training at Epoch 66 iteration 28 with loss tensor(0.0141, device='cuda:0', dtype=torch.float64)
+Precision:  0.884878257155062
+Recall:  0.9032047089601046
+F1:  0.8939470672121512
+max f1:  0.9048967453000104
+Training at Epoch 67 iteration 4 with loss tensor(0.0107, device='cuda:0', dtype=torch.float64)
+Training at Epoch 67 iteration 8 with loss tensor(0.0129, device='cuda:0', dtype=torch.float64)
+Training at Epoch 67 iteration 12 with loss tensor(0.0134, device='cuda:0', dtype=torch.float64)
+Training at Epoch 67 iteration 16 with loss tensor(0.0148, device='cuda:0', dtype=torch.float64)
+Training at Epoch 67 iteration 20 with loss tensor(0.0142, device='cuda:0', dtype=torch.float64)
+Training at Epoch 67 iteration 24 with loss tensor(0.0138, device='cuda:0', dtype=torch.float64)
+Training at Epoch 67 iteration 28 with loss tensor(0.0137, device='cuda:0', dtype=torch.float64)
+Precision:  0.8860786397449522
+Recall:  0.9063043478260869
+F1:  0.896076877817842
+max f1:  0.9048967453000104
+Training at Epoch 68 iteration 4 with loss tensor(0.0131, device='cuda:0', dtype=torch.float64)
+Training at Epoch 68 iteration 8 with loss tensor(0.0120, device='cuda:0', dtype=torch.float64)
+Training at Epoch 68 iteration 12 with loss tensor(0.0149, device='cuda:0', dtype=torch.float64)
+Training at Epoch 68 iteration 16 with loss tensor(0.0161, device='cuda:0', dtype=torch.float64)
+Training at Epoch 68 iteration 20 with loss tensor(0.0155, device='cuda:0', dtype=torch.float64)
+Training at Epoch 68 iteration 24 with loss tensor(0.0151, device='cuda:0', dtype=torch.float64)
+Training at Epoch 68 iteration 28 with loss tensor(0.0153, device='cuda:0', dtype=torch.float64)
+Precision:  0.888649115235218
+Recall:  0.8963865912059208
+F1:  0.8925005836681056
+max f1:  0.9048967453000104
+Training at Epoch 69 iteration 4 with loss tensor(0.0138, device='cuda:0', dtype=torch.float64)
+Training at Epoch 69 iteration 8 with loss tensor(0.0141, device='cuda:0', dtype=torch.float64)
+Training at Epoch 69 iteration 12 with loss tensor(0.0138, device='cuda:0', dtype=torch.float64)
+Training at Epoch 69 iteration 16 with loss tensor(0.0147, device='cuda:0', dtype=torch.float64)
+Training at Epoch 69 iteration 20 with loss tensor(0.0145, device='cuda:0', dtype=torch.float64)
+Training at Epoch 69 iteration 24 with loss tensor(0.0142, device='cuda:0', dtype=torch.float64)
+Training at Epoch 69 iteration 28 with loss tensor(0.0141, device='cuda:0', dtype=torch.float64)
+Precision:  0.887384483129164
+Recall:  0.9003488879197558
+F1:  0.8938191774808444
+max f1:  0.9048967453000104
+Training at Epoch 70 iteration 4 with loss tensor(0.0105, device='cuda:0', dtype=torch.float64)
+Training at Epoch 70 iteration 8 with loss tensor(0.0131, device='cuda:0', dtype=torch.float64)
+Training at Epoch 70 iteration 12 with loss tensor(0.0131, device='cuda:0', dtype=torch.float64)
+Training at Epoch 70 iteration 16 with loss tensor(0.0141, device='cuda:0', dtype=torch.float64)
+Training at Epoch 70 iteration 20 with loss tensor(0.0142, device='cuda:0', dtype=torch.float64)
+Training at Epoch 70 iteration 24 with loss tensor(0.0142, device='cuda:0', dtype=torch.float64)
+Training at Epoch 70 iteration 28 with loss tensor(0.0139, device='cuda:0', dtype=torch.float64)
+Precision:  0.8884120171673819
+Recall:  0.9037328094302554
+F1:  0.8960064256942167
+max f1:  0.9048967453000104
+Training at Epoch 71 iteration 4 with loss tensor(0.0112, device='cuda:0', dtype=torch.float64)
+Training at Epoch 71 iteration 8 with loss tensor(0.0139, device='cuda:0', dtype=torch.float64)
+Training at Epoch 71 iteration 12 with loss tensor(0.0133, device='cuda:0', dtype=torch.float64)
+Training at Epoch 71 iteration 16 with loss tensor(0.0141, device='cuda:0', dtype=torch.float64)
+Training at Epoch 71 iteration 20 with loss tensor(0.0137, device='cuda:0', dtype=torch.float64)
+Training at Epoch 71 iteration 24 with loss tensor(0.0133, device='cuda:0', dtype=torch.float64)
+Training at Epoch 71 iteration 28 with loss tensor(0.0134, device='cuda:0', dtype=torch.float64)
+Precision:  0.883493077742279
+Recall:  0.9033101045296167
+F1:  0.8932911981343571
+max f1:  0.9048967453000104
+Training at Epoch 72 iteration 4 with loss tensor(0.0172, device='cuda:0', dtype=torch.float64)
+Training at Epoch 72 iteration 8 with loss tensor(0.0144, device='cuda:0', dtype=torch.float64)
+Training at Epoch 72 iteration 12 with loss tensor(0.0134, device='cuda:0', dtype=torch.float64)
+Training at Epoch 72 iteration 16 with loss tensor(0.0136, device='cuda:0', dtype=torch.float64)
+Training at Epoch 72 iteration 20 with loss tensor(0.0129, device='cuda:0', dtype=torch.float64)
+Training at Epoch 72 iteration 24 with loss tensor(0.0128, device='cuda:0', dtype=torch.float64)
+Training at Epoch 72 iteration 28 with loss tensor(0.0125, device='cuda:0', dtype=torch.float64)
+Precision:  0.8823529411764706
+Recall:  0.9031413612565445
+F1:  0.8926256320214875
+max f1:  0.9048967453000104
+Training at Epoch 73 iteration 4 with loss tensor(0.0130, device='cuda:0', dtype=torch.float64)
+Training at Epoch 73 iteration 8 with loss tensor(0.0149, device='cuda:0', dtype=torch.float64)
+Training at Epoch 73 iteration 12 with loss tensor(0.0138, device='cuda:0', dtype=torch.float64)
+Training at Epoch 73 iteration 16 with loss tensor(0.0133, device='cuda:0', dtype=torch.float64)
+Training at Epoch 73 iteration 20 with loss tensor(0.0139, device='cuda:0', dtype=torch.float64)
+Training at Epoch 73 iteration 24 with loss tensor(0.0147, device='cuda:0', dtype=torch.float64)
+Training at Epoch 73 iteration 28 with loss tensor(0.0142, device='cuda:0', dtype=torch.float64)
+Precision:  0.8861354411450545
+Recall:  0.9029168480626905
+F1:  0.894446939397372
+max f1:  0.9048967453000104
+Training at Epoch 74 iteration 4 with loss tensor(0.0165, device='cuda:0', dtype=torch.float64)
+Training at Epoch 74 iteration 8 with loss tensor(0.0136, device='cuda:0', dtype=torch.float64)
+Training at Epoch 74 iteration 12 with loss tensor(0.0137, device='cuda:0', dtype=torch.float64)
+Training at Epoch 74 iteration 16 with loss tensor(0.0134, device='cuda:0', dtype=torch.float64)
+Training at Epoch 74 iteration 20 with loss tensor(0.0136, device='cuda:0', dtype=torch.float64)
+Training at Epoch 74 iteration 24 with loss tensor(0.0133, device='cuda:0', dtype=torch.float64)
+Training at Epoch 74 iteration 28 with loss tensor(0.0131, device='cuda:0', dtype=torch.float64)
+Precision:  0.8904639175257731
+Recall:  0.8983748645720476
+F1:  0.894401398402896
+max f1:  0.9048967453000104
+Training at Epoch 75 iteration 4 with loss tensor(0.0120, device='cuda:0', dtype=torch.float64)
+Training at Epoch 75 iteration 8 with loss tensor(0.0146, device='cuda:0', dtype=torch.float64)
+Training at Epoch 75 iteration 12 with loss tensor(0.0137, device='cuda:0', dtype=torch.float64)
+Training at Epoch 75 iteration 16 with loss tensor(0.0132, device='cuda:0', dtype=torch.float64)
+Training at Epoch 75 iteration 20 with loss tensor(0.0129, device='cuda:0', dtype=torch.float64)
+Training at Epoch 75 iteration 24 with loss tensor(0.0130, device='cuda:0', dtype=torch.float64)
+Training at Epoch 75 iteration 28 with loss tensor(0.0137, device='cuda:0', dtype=torch.float64)
+Precision:  0.8881451090477219
+Recall:  0.896860008722198
+F1:  0.8924807845950345
+max f1:  0.9048967453000104
+Training at Epoch 76 iteration 4 with loss tensor(0.0121, device='cuda:0', dtype=torch.float64)
+Training at Epoch 76 iteration 8 with loss tensor(0.0131, device='cuda:0', dtype=torch.float64)
+Training at Epoch 76 iteration 12 with loss tensor(0.0131, device='cuda:0', dtype=torch.float64)
+Training at Epoch 76 iteration 16 with loss tensor(0.0131, device='cuda:0', dtype=torch.float64)
+Training at Epoch 76 iteration 20 with loss tensor(0.0129, device='cuda:0', dtype=torch.float64)
+Training at Epoch 76 iteration 24 with loss tensor(0.0128, device='cuda:0', dtype=torch.float64)
+Training at Epoch 76 iteration 28 with loss tensor(0.0130, device='cuda:0', dtype=torch.float64)
+Precision:  0.8862262521588946
+Recall:  0.898052942463356
+F1:  0.8920999020650594
+max f1:  0.9048967453000104
+Training at Epoch 77 iteration 4 with loss tensor(0.0145, device='cuda:0', dtype=torch.float64)
+Training at Epoch 77 iteration 8 with loss tensor(0.0141, device='cuda:0', dtype=torch.float64)
+Training at Epoch 77 iteration 12 with loss tensor(0.0134, device='cuda:0', dtype=torch.float64)
+Training at Epoch 77 iteration 16 with loss tensor(0.0135, device='cuda:0', dtype=torch.float64)
+Training at Epoch 77 iteration 20 with loss tensor(0.0129, device='cuda:0', dtype=torch.float64)
+Training at Epoch 77 iteration 24 with loss tensor(0.0131, device='cuda:0', dtype=torch.float64)
+Training at Epoch 77 iteration 28 with loss tensor(0.0132, device='cuda:0', dtype=torch.float64)
+Precision:  0.8828158230540196
+Recall:  0.9025875190258752
+F1:  0.892591694449298
+max f1:  0.9048967453000104
+Training at Epoch 78 iteration 4 with loss tensor(0.0071, device='cuda:0', dtype=torch.float64)
+Training at Epoch 78 iteration 8 with loss tensor(0.0089, device='cuda:0', dtype=torch.float64)
+Training at Epoch 78 iteration 12 with loss tensor(0.0105, device='cuda:0', dtype=torch.float64)
+Training at Epoch 78 iteration 16 with loss tensor(0.0111, device='cuda:0', dtype=torch.float64)
+Training at Epoch 78 iteration 20 with loss tensor(0.0116, device='cuda:0', dtype=torch.float64)
+Training at Epoch 78 iteration 24 with loss tensor(0.0124, device='cuda:0', dtype=torch.float64)
+Training at Epoch 78 iteration 28 with loss tensor(0.0118, device='cuda:0', dtype=torch.float64)
+Precision:  0.8808366786393408
+Recall:  0.9076856085347268
+F1:  0.8940591183844556
+max f1:  0.9048967453000104
+Training at Epoch 79 iteration 4 with loss tensor(0.0109, device='cuda:0', dtype=torch.float64)
+Training at Epoch 79 iteration 8 with loss tensor(0.0114, device='cuda:0', dtype=torch.float64)
+Training at Epoch 79 iteration 12 with loss tensor(0.0122, device='cuda:0', dtype=torch.float64)
+Training at Epoch 79 iteration 16 with loss tensor(0.0133, device='cuda:0', dtype=torch.float64)
+Training at Epoch 79 iteration 20 with loss tensor(0.0135, device='cuda:0', dtype=torch.float64)
+Training at Epoch 79 iteration 24 with loss tensor(0.0136, device='cuda:0', dtype=torch.float64)
+Training at Epoch 79 iteration 28 with loss tensor(0.0137, device='cuda:0', dtype=torch.float64)
+Precision:  0.8892466194462331
+Recall:  0.8988934692991972
+F1:  0.8940435224576461
+max f1:  0.9048967453000104
+Training at Epoch 80 iteration 4 with loss tensor(0.0152, device='cuda:0', dtype=torch.float64)
+Training at Epoch 80 iteration 8 with loss tensor(0.0138, device='cuda:0', dtype=torch.float64)
+Training at Epoch 80 iteration 12 with loss tensor(0.0123, device='cuda:0', dtype=torch.float64)
+Training at Epoch 80 iteration 16 with loss tensor(0.0131, device='cuda:0', dtype=torch.float64)
+Training at Epoch 80 iteration 20 with loss tensor(0.0136, device='cuda:0', dtype=torch.float64)
+Training at Epoch 80 iteration 24 with loss tensor(0.0135, device='cuda:0', dtype=torch.float64)
+Training at Epoch 80 iteration 28 with loss tensor(0.0132, device='cuda:0', dtype=torch.float64)
+Precision:  0.8856778580535487
+Recall:  0.9021645021645022
+F1:  0.8938446641002719
+max f1:  0.9048967453000104
+Training at Epoch 81 iteration 4 with loss tensor(0.0142, device='cuda:0', dtype=torch.float64)
+Training at Epoch 81 iteration 8 with loss tensor(0.0136, device='cuda:0', dtype=torch.float64)
+Training at Epoch 81 iteration 12 with loss tensor(0.0134, device='cuda:0', dtype=torch.float64)
+Training at Epoch 81 iteration 16 with loss tensor(0.0129, device='cuda:0', dtype=torch.float64)
+Training at Epoch 81 iteration 20 with loss tensor(0.0131, device='cuda:0', dtype=torch.float64)
+Training at Epoch 81 iteration 24 with loss tensor(0.0127, device='cuda:0', dtype=torch.float64)
+Training at Epoch 81 iteration 28 with loss tensor(0.0129, device='cuda:0', dtype=torch.float64)
+Precision:  0.8840579710144928
+Recall:  0.9033101045296167
+F1:  0.8935798533542824
+max f1:  0.9048967453000104
+Training at Epoch 82 iteration 4 with loss tensor(0.0127, device='cuda:0', dtype=torch.float64)
+Training at Epoch 82 iteration 8 with loss tensor(0.0137, device='cuda:0', dtype=torch.float64)
+Training at Epoch 82 iteration 12 with loss tensor(0.0133, device='cuda:0', dtype=torch.float64)
+Training at Epoch 82 iteration 16 with loss tensor(0.0128, device='cuda:0', dtype=torch.float64)
+Training at Epoch 82 iteration 20 with loss tensor(0.0128, device='cuda:0', dtype=torch.float64)
+Training at Epoch 82 iteration 24 with loss tensor(0.0124, device='cuda:0', dtype=torch.float64)
+Training at Epoch 82 iteration 28 with loss tensor(0.0122, device='cuda:0', dtype=torch.float64)
+Precision:  0.8866709594333548
+Recall:  0.9
+F1:  0.8932852606508777
+max f1:  0.9048967453000104
+Training at Epoch 83 iteration 4 with loss tensor(0.0109, device='cuda:0', dtype=torch.float64)
+Training at Epoch 83 iteration 8 with loss tensor(0.0132, device='cuda:0', dtype=torch.float64)
+Training at Epoch 83 iteration 12 with loss tensor(0.0115, device='cuda:0', dtype=torch.float64)
+Training at Epoch 83 iteration 16 with loss tensor(0.0112, device='cuda:0', dtype=torch.float64)
+Training at Epoch 83 iteration 20 with loss tensor(0.0117, device='cuda:0', dtype=torch.float64)
+Training at Epoch 83 iteration 24 with loss tensor(0.0121, device='cuda:0', dtype=torch.float64)
+Training at Epoch 83 iteration 28 with loss tensor(0.0126, device='cuda:0', dtype=torch.float64)
+Precision:  0.8842217484008529
+Recall:  0.9030923344947736
+F1:  0.8935569230252038
+max f1:  0.9048967453000104
+Training at Epoch 84 iteration 4 with loss tensor(0.0115, device='cuda:0', dtype=torch.float64)
+Training at Epoch 84 iteration 8 with loss tensor(0.0108, device='cuda:0', dtype=torch.float64)
+Training at Epoch 84 iteration 12 with loss tensor(0.0115, device='cuda:0', dtype=torch.float64)
+Training at Epoch 84 iteration 16 with loss tensor(0.0120, device='cuda:0', dtype=torch.float64)
+Training at Epoch 84 iteration 20 with loss tensor(0.0120, device='cuda:0', dtype=torch.float64)
+Training at Epoch 84 iteration 24 with loss tensor(0.0121, device='cuda:0', dtype=torch.float64)
+Training at Epoch 84 iteration 28 with loss tensor(0.0119, device='cuda:0', dtype=torch.float64)
+Precision:  0.8886245674740484
+Recall:  0.8969657280069854
+F1:  0.8927751654104303
+max f1:  0.9048967453000104
+Training at Epoch 85 iteration 4 with loss tensor(0.0099, device='cuda:0', dtype=torch.float64)
+Training at Epoch 85 iteration 8 with loss tensor(0.0114, device='cuda:0', dtype=torch.float64)
+Training at Epoch 85 iteration 12 with loss tensor(0.0122, device='cuda:0', dtype=torch.float64)
+Training at Epoch 85 iteration 16 with loss tensor(0.0122, device='cuda:0', dtype=torch.float64)
+Training at Epoch 85 iteration 20 with loss tensor(0.0119, device='cuda:0', dtype=torch.float64)
+Training at Epoch 85 iteration 24 with loss tensor(0.0124, device='cuda:0', dtype=torch.float64)
+Training at Epoch 85 iteration 28 with loss tensor(0.0124, device='cuda:0', dtype=torch.float64)
+Precision:  0.8877725523728089
+Recall:  0.9020417028670721
+F1:  0.8948497478234834
+max f1:  0.9048967453000104
+Training at Epoch 86 iteration 4 with loss tensor(0.0113, device='cuda:0', dtype=torch.float64)
+Training at Epoch 86 iteration 8 with loss tensor(0.0125, device='cuda:0', dtype=torch.float64)
+Training at Epoch 86 iteration 12 with loss tensor(0.0110, device='cuda:0', dtype=torch.float64)
+Training at Epoch 86 iteration 16 with loss tensor(0.0110, device='cuda:0', dtype=torch.float64)
+Training at Epoch 86 iteration 20 with loss tensor(0.0107, device='cuda:0', dtype=torch.float64)
+Training at Epoch 86 iteration 24 with loss tensor(0.0109, device='cuda:0', dtype=torch.float64)
+Training at Epoch 86 iteration 28 with loss tensor(0.0115, device='cuda:0', dtype=torch.float64)
+Precision:  0.8860515021459228
+Recall:  0.9017252675256606
+F1:  0.8938191774929813
+max f1:  0.9048967453000104
+Training at Epoch 87 iteration 4 with loss tensor(0.0117, device='cuda:0', dtype=torch.float64)
+Training at Epoch 87 iteration 8 with loss tensor(0.0114, device='cuda:0', dtype=torch.float64)
+Training at Epoch 87 iteration 12 with loss tensor(0.0116, device='cuda:0', dtype=torch.float64)
+Training at Epoch 87 iteration 16 with loss tensor(0.0113, device='cuda:0', dtype=torch.float64)
+Training at Epoch 87 iteration 20 with loss tensor(0.0114, device='cuda:0', dtype=torch.float64)
+Training at Epoch 87 iteration 24 with loss tensor(0.0116, device='cuda:0', dtype=torch.float64)
+Training at Epoch 87 iteration 28 with loss tensor(0.0116, device='cuda:0', dtype=torch.float64)
+Precision:  0.8887457044673539
+Recall:  0.900544069640914
+F1:  0.8946054885637984
+max f1:  0.9048967453000104
+Training at Epoch 88 iteration 4 with loss tensor(0.0110, device='cuda:0', dtype=torch.float64)
+Training at Epoch 88 iteration 8 with loss tensor(0.0111, device='cuda:0', dtype=torch.float64)
+Training at Epoch 88 iteration 12 with loss tensor(0.0113, device='cuda:0', dtype=torch.float64)
+Training at Epoch 88 iteration 16 with loss tensor(0.0113, device='cuda:0', dtype=torch.float64)
+Training at Epoch 88 iteration 20 with loss tensor(0.0108, device='cuda:0', dtype=torch.float64)
+Training at Epoch 88 iteration 24 with loss tensor(0.0114, device='cuda:0', dtype=torch.float64)
+Training at Epoch 88 iteration 28 with loss tensor(0.0117, device='cuda:0', dtype=torch.float64)
+Precision:  0.8840178761438604
+Recall:  0.9069868995633188
+F1:  0.8953546030030886
+max f1:  0.9048967453000104
+Training at Epoch 89 iteration 4 with loss tensor(0.0105, device='cuda:0', dtype=torch.float64)
+Training at Epoch 89 iteration 8 with loss tensor(0.0126, device='cuda:0', dtype=torch.float64)
+Training at Epoch 89 iteration 12 with loss tensor(0.0121, device='cuda:0', dtype=torch.float64)
+Training at Epoch 89 iteration 16 with loss tensor(0.0130, device='cuda:0', dtype=torch.float64)
+Training at Epoch 89 iteration 20 with loss tensor(0.0131, device='cuda:0', dtype=torch.float64)
+Training at Epoch 89 iteration 24 with loss tensor(0.0127, device='cuda:0', dtype=torch.float64)
+Training at Epoch 89 iteration 28 with loss tensor(0.0125, device='cuda:0', dtype=torch.float64)
+Precision:  0.8892941428877923
+Recall:  0.8985475829178409
+F1:  0.8938964161232276
+max f1:  0.9048967453000104
+Training at Epoch 90 iteration 4 with loss tensor(0.0119, device='cuda:0', dtype=torch.float64)
+Training at Epoch 90 iteration 8 with loss tensor(0.0113, device='cuda:0', dtype=torch.float64)
+Training at Epoch 90 iteration 12 with loss tensor(0.0111, device='cuda:0', dtype=torch.float64)
+Training at Epoch 90 iteration 16 with loss tensor(0.0112, device='cuda:0', dtype=torch.float64)
+Training at Epoch 90 iteration 20 with loss tensor(0.0115, device='cuda:0', dtype=torch.float64)
+Training at Epoch 90 iteration 24 with loss tensor(0.0120, device='cuda:0', dtype=torch.float64)
+Training at Epoch 90 iteration 28 with loss tensor(0.0122, device='cuda:0', dtype=torch.float64)
+Precision:  0.8906216157678146
+Recall:  0.8939130434782608
+F1:  0.8922637942408876
+max f1:  0.9048967453000104
+Training at Epoch 91 iteration 4 with loss tensor(0.0096, device='cuda:0', dtype=torch.float64)
+Training at Epoch 91 iteration 8 with loss tensor(0.0093, device='cuda:0', dtype=torch.float64)
+Training at Epoch 91 iteration 12 with loss tensor(0.0108, device='cuda:0', dtype=torch.float64)
+Training at Epoch 91 iteration 16 with loss tensor(0.0105, device='cuda:0', dtype=torch.float64)
+Training at Epoch 91 iteration 20 with loss tensor(0.0112, device='cuda:0', dtype=torch.float64)
+Training at Epoch 91 iteration 24 with loss tensor(0.0117, device='cuda:0', dtype=torch.float64)
+Training at Epoch 91 iteration 28 with loss tensor(0.0118, device='cuda:0', dtype=torch.float64)
+Precision:  0.8855977677613222
+Recall:  0.9002836569932359
+F1:  0.8928798289672228
+max f1:  0.9048967453000104
+Training at Epoch 92 iteration 4 with loss tensor(0.0106, device='cuda:0', dtype=torch.float64)
+Training at Epoch 92 iteration 8 with loss tensor(0.0098, device='cuda:0', dtype=torch.float64)
+Training at Epoch 92 iteration 12 with loss tensor(0.0101, device='cuda:0', dtype=torch.float64)
+Training at Epoch 92 iteration 16 with loss tensor(0.0109, device='cuda:0', dtype=torch.float64)
+Training at Epoch 92 iteration 20 with loss tensor(0.0116, device='cuda:0', dtype=torch.float64)
+Training at Epoch 92 iteration 24 with loss tensor(0.0116, device='cuda:0', dtype=torch.float64)
+Training at Epoch 92 iteration 28 with loss tensor(0.0115, device='cuda:0', dtype=torch.float64)
+Precision:  0.8896299483648882
+Recall:  0.9002830394077944
+F1:  0.8949242917072021
+max f1:  0.9048967453000104
+Training at Epoch 93 iteration 4 with loss tensor(0.0126, device='cuda:0', dtype=torch.float64)
+Training at Epoch 93 iteration 8 with loss tensor(0.0117, device='cuda:0', dtype=torch.float64)
+Training at Epoch 93 iteration 12 with loss tensor(0.0114, device='cuda:0', dtype=torch.float64)
+Training at Epoch 93 iteration 16 with loss tensor(0.0118, device='cuda:0', dtype=torch.float64)
+Training at Epoch 93 iteration 20 with loss tensor(0.0119, device='cuda:0', dtype=torch.float64)
+Training at Epoch 93 iteration 24 with loss tensor(0.0118, device='cuda:0', dtype=torch.float64)
+Training at Epoch 93 iteration 28 with loss tensor(0.0114, device='cuda:0', dtype=torch.float64)
+Precision:  0.8906318082788671
+Recall:  0.8949211908931699
+F1:  0.8927708474589419
+max f1:  0.9048967453000104
+Training at Epoch 94 iteration 4 with loss tensor(0.0116, device='cuda:0', dtype=torch.float64)
+Training at Epoch 94 iteration 8 with loss tensor(0.0111, device='cuda:0', dtype=torch.float64)
+Training at Epoch 94 iteration 12 with loss tensor(0.0120, device='cuda:0', dtype=torch.float64)
+Training at Epoch 94 iteration 16 with loss tensor(0.0119, device='cuda:0', dtype=torch.float64)
+Training at Epoch 94 iteration 20 with loss tensor(0.0120, device='cuda:0', dtype=torch.float64)
+Training at Epoch 94 iteration 24 with loss tensor(0.0122, device='cuda:0', dtype=torch.float64)
+Training at Epoch 94 iteration 28 with loss tensor(0.0123, device='cuda:0', dtype=torch.float64)
+Precision:  0.8859536082474226
+Recall:  0.9004584151931893
+F1:  0.8931466257234023
+max f1:  0.9048967453000104
+Training at Epoch 95 iteration 4 with loss tensor(0.0109, device='cuda:0', dtype=torch.float64)
+Training at Epoch 95 iteration 8 with loss tensor(0.0117, device='cuda:0', dtype=torch.float64)
+Training at Epoch 95 iteration 12 with loss tensor(0.0123, device='cuda:0', dtype=torch.float64)
+Training at Epoch 95 iteration 16 with loss tensor(0.0117, device='cuda:0', dtype=torch.float64)
+Training at Epoch 95 iteration 20 with loss tensor(0.0112, device='cuda:0', dtype=torch.float64)
+Training at Epoch 95 iteration 24 with loss tensor(0.0112, device='cuda:0', dtype=torch.float64)
+Training at Epoch 95 iteration 28 with loss tensor(0.0114, device='cuda:0', dtype=torch.float64)
+Precision:  0.8867320819112628
+Recall:  0.9007583965330445
+F1:  0.893689707491026
+max f1:  0.9048967453000104
+Training at Epoch 96 iteration 4 with loss tensor(0.0098, device='cuda:0', dtype=torch.float64)
+Training at Epoch 96 iteration 8 with loss tensor(0.0104, device='cuda:0', dtype=torch.float64)
+Training at Epoch 96 iteration 12 with loss tensor(0.0106, device='cuda:0', dtype=torch.float64)
+Training at Epoch 96 iteration 16 with loss tensor(0.0112, device='cuda:0', dtype=torch.float64)
+Training at Epoch 96 iteration 20 with loss tensor(0.0118, device='cuda:0', dtype=torch.float64)
+Training at Epoch 96 iteration 24 with loss tensor(0.0120, device='cuda:0', dtype=torch.float64)
+Training at Epoch 96 iteration 28 with loss tensor(0.0117, device='cuda:0', dtype=torch.float64)
+Precision:  0.8885529157667387
+Recall:  0.8978611959842864
+F1:  0.8931823050507636
+max f1:  0.9048967453000104
+Training at Epoch 97 iteration 4 with loss tensor(0.0109, device='cuda:0', dtype=torch.float64)
+Training at Epoch 97 iteration 8 with loss tensor(0.0146, device='cuda:0', dtype=torch.float64)
+Training at Epoch 97 iteration 12 with loss tensor(0.0134, device='cuda:0', dtype=torch.float64)
+Training at Epoch 97 iteration 16 with loss tensor(0.0130, device='cuda:0', dtype=torch.float64)
+Training at Epoch 97 iteration 20 with loss tensor(0.0121, device='cuda:0', dtype=torch.float64)
+Training at Epoch 97 iteration 24 with loss tensor(0.0117, device='cuda:0', dtype=torch.float64)
+Training at Epoch 97 iteration 28 with loss tensor(0.0119, device='cuda:0', dtype=torch.float64)
+Precision:  0.8842832469775475
+Recall:  0.9002197802197802
+F1:  0.892179852904457
+max f1:  0.9048967453000104
+Training at Epoch 98 iteration 4 with loss tensor(0.0159, device='cuda:0', dtype=torch.float64)
+Training at Epoch 98 iteration 8 with loss tensor(0.0123, device='cuda:0', dtype=torch.float64)
+Training at Epoch 98 iteration 12 with loss tensor(0.0114, device='cuda:0', dtype=torch.float64)
+Training at Epoch 98 iteration 16 with loss tensor(0.0116, device='cuda:0', dtype=torch.float64)
+Training at Epoch 98 iteration 20 with loss tensor(0.0120, device='cuda:0', dtype=torch.float64)
+Training at Epoch 98 iteration 24 with loss tensor(0.0122, device='cuda:0', dtype=torch.float64)
+Training at Epoch 98 iteration 28 with loss tensor(0.0120, device='cuda:0', dtype=torch.float64)
+Precision:  0.8875968992248062
+Recall:  0.8984306887532694
+F1:  0.892980435893894
+max f1:  0.9048967453000104
+Training at Epoch 99 iteration 4 with loss tensor(0.0123, device='cuda:0', dtype=torch.float64)
+Training at Epoch 99 iteration 8 with loss tensor(0.0137, device='cuda:0', dtype=torch.float64)
+Training at Epoch 99 iteration 12 with loss tensor(0.0119, device='cuda:0', dtype=torch.float64)
+Training at Epoch 99 iteration 16 with loss tensor(0.0118, device='cuda:0', dtype=torch.float64)
+Training at Epoch 99 iteration 20 with loss tensor(0.0120, device='cuda:0', dtype=torch.float64)
+Training at Epoch 99 iteration 24 with loss tensor(0.0119, device='cuda:0', dtype=torch.float64)
+Training at Epoch 99 iteration 28 with loss tensor(0.0120, device='cuda:0', dtype=torch.float64)
+Precision:  0.8878143133462283
+Recall:  0.8996080139372822
+F1:  0.8936717552951683
+max f1:  0.9048967453000104
+Training at Epoch 100 iteration 4 with loss tensor(0.0150, device='cuda:0', dtype=torch.float64)
+Training at Epoch 100 iteration 8 with loss tensor(0.0139, device='cuda:0', dtype=torch.float64)
+Training at Epoch 100 iteration 12 with loss tensor(0.0127, device='cuda:0', dtype=torch.float64)
+Training at Epoch 100 iteration 16 with loss tensor(0.0126, device='cuda:0', dtype=torch.float64)
+Training at Epoch 100 iteration 20 with loss tensor(0.0127, device='cuda:0', dtype=torch.float64)
+Training at Epoch 100 iteration 24 with loss tensor(0.0125, device='cuda:0', dtype=torch.float64)
+Training at Epoch 100 iteration 28 with loss tensor(0.0120, device='cuda:0', dtype=torch.float64)
+Precision:  0.8896103896103896
+Recall:  0.8967924939995636
+F1:  0.8931865042461105
+max f1:  0.9048967453000104
+Training at Epoch 101 iteration 4 with loss tensor(0.0140, device='cuda:0', dtype=torch.float64)
+Training at Epoch 101 iteration 8 with loss tensor(0.0120, device='cuda:0', dtype=torch.float64)
+Training at Epoch 101 iteration 12 with loss tensor(0.0119, device='cuda:0', dtype=torch.float64)
+Training at Epoch 101 iteration 16 with loss tensor(0.0123, device='cuda:0', dtype=torch.float64)
+Training at Epoch 101 iteration 20 with loss tensor(0.0116, device='cuda:0', dtype=torch.float64)
+Training at Epoch 101 iteration 24 with loss tensor(0.0118, device='cuda:0', dtype=torch.float64)
+Training at Epoch 101 iteration 28 with loss tensor(0.0115, device='cuda:0', dtype=torch.float64)
+Precision:  0.8899161470651473
+Recall:  0.8995870462942839
+F1:  0.8947249647792577
+max f1:  0.9048967453000104
+Training at Epoch 102 iteration 4 with loss tensor(0.0123, device='cuda:0', dtype=torch.float64)
+Training at Epoch 102 iteration 8 with loss tensor(0.0110, device='cuda:0', dtype=torch.float64)
+Training at Epoch 102 iteration 12 with loss tensor(0.0110, device='cuda:0', dtype=torch.float64)
+Training at Epoch 102 iteration 16 with loss tensor(0.0110, device='cuda:0', dtype=torch.float64)
+Training at Epoch 102 iteration 20 with loss tensor(0.0110, device='cuda:0', dtype=torch.float64)
+Training at Epoch 102 iteration 24 with loss tensor(0.0109, device='cuda:0', dtype=torch.float64)
+Training at Epoch 102 iteration 28 with loss tensor(0.0117, device='cuda:0', dtype=torch.float64)
+Precision:  0.8824909362337385
+Recall:  0.9025081788440567
+F1:  0.8923868194506936
+max f1:  0.9048967453000104
+Training at Epoch 103 iteration 4 with loss tensor(0.0100, device='cuda:0', dtype=torch.float64)
+Training at Epoch 103 iteration 8 with loss tensor(0.0102, device='cuda:0', dtype=torch.float64)
+Training at Epoch 103 iteration 12 with loss tensor(0.0128, device='cuda:0', dtype=torch.float64)
+Training at Epoch 103 iteration 16 with loss tensor(0.0118, device='cuda:0', dtype=torch.float64)
+Training at Epoch 103 iteration 20 with loss tensor(0.0116, device='cuda:0', dtype=torch.float64)
+Training at Epoch 103 iteration 24 with loss tensor(0.0115, device='cuda:0', dtype=torch.float64)
+Training at Epoch 103 iteration 28 with loss tensor(0.0113, device='cuda:0', dtype=torch.float64)
+Precision:  0.8864265927977839
+Recall:  0.9023861171366594
+F1:  0.8943346607409284
+max f1:  0.9048967453000104
+Training at Epoch 104 iteration 4 with loss tensor(0.0120, device='cuda:0', dtype=torch.float64)
+Training at Epoch 104 iteration 8 with loss tensor(0.0112, device='cuda:0', dtype=torch.float64)
+Training at Epoch 104 iteration 12 with loss tensor(0.0117, device='cuda:0', dtype=torch.float64)
+Training at Epoch 104 iteration 16 with loss tensor(0.0118, device='cuda:0', dtype=torch.float64)
+Training at Epoch 104 iteration 20 with loss tensor(0.0116, device='cuda:0', dtype=torch.float64)
+Training at Epoch 104 iteration 24 with loss tensor(0.0119, device='cuda:0', dtype=torch.float64)
+Training at Epoch 104 iteration 28 with loss tensor(0.0117, device='cuda:0', dtype=torch.float64)
+Precision:  0.8876524716456238
+Recall:  0.9027203482045701
+F1:  0.8951225039200273
+max f1:  0.9048967453000104
+Training at Epoch 105 iteration 4 with loss tensor(0.0145, device='cuda:0', dtype=torch.float64)
+Training at Epoch 105 iteration 8 with loss tensor(0.0144, device='cuda:0', dtype=torch.float64)
+Training at Epoch 105 iteration 12 with loss tensor(0.0150, device='cuda:0', dtype=torch.float64)
+Training at Epoch 105 iteration 16 with loss tensor(0.0140, device='cuda:0', dtype=torch.float64)
+Training at Epoch 105 iteration 20 with loss tensor(0.0134, device='cuda:0', dtype=torch.float64)
+Training at Epoch 105 iteration 24 with loss tensor(0.0130, device='cuda:0', dtype=torch.float64)
+Training at Epoch 105 iteration 28 with loss tensor(0.0125, device='cuda:0', dtype=torch.float64)
+Precision:  0.8829809950886184
+Recall:  0.9024443474465299
+F1:  0.8926060839776695
+max f1:  0.9048967453000104
+Training at Epoch 106 iteration 4 with loss tensor(0.0102, device='cuda:0', dtype=torch.float64)
+Training at Epoch 106 iteration 8 with loss tensor(0.0101, device='cuda:0', dtype=torch.float64)
+Training at Epoch 106 iteration 12 with loss tensor(0.0100, device='cuda:0', dtype=torch.float64)
+Training at Epoch 106 iteration 16 with loss tensor(0.0112, device='cuda:0', dtype=torch.float64)
+Training at Epoch 106 iteration 20 with loss tensor(0.0112, device='cuda:0', dtype=torch.float64)
+Training at Epoch 106 iteration 24 with loss tensor(0.0120, device='cuda:0', dtype=torch.float64)
+Training at Epoch 106 iteration 28 with loss tensor(0.0119, device='cuda:0', dtype=torch.float64)
+Precision:  0.8875968992248062
+Recall:  0.9
+F1:  0.8937549206661545
+max f1:  0.9048967453000104
+Training at Epoch 107 iteration 4 with loss tensor(0.0147, device='cuda:0', dtype=torch.float64)
+Training at Epoch 107 iteration 8 with loss tensor(0.0150, device='cuda:0', dtype=torch.float64)
+Training at Epoch 107 iteration 12 with loss tensor(0.0130, device='cuda:0', dtype=torch.float64)
+Training at Epoch 107 iteration 16 with loss tensor(0.0123, device='cuda:0', dtype=torch.float64)
+Training at Epoch 107 iteration 20 with loss tensor(0.0122, device='cuda:0', dtype=torch.float64)
+Training at Epoch 107 iteration 24 with loss tensor(0.0120, device='cuda:0', dtype=torch.float64)
+Training at Epoch 107 iteration 28 with loss tensor(0.0120, device='cuda:0', dtype=torch.float64)
+Precision:  0.8921611087050672
+Recall:  0.8960417572857764
+F1:  0.8940967222248566
+max f1:  0.9048967453000104
+Training at Epoch 108 iteration 4 with loss tensor(0.0125, device='cuda:0', dtype=torch.float64)
+Training at Epoch 108 iteration 8 with loss tensor(0.0119, device='cuda:0', dtype=torch.float64)
+Training at Epoch 108 iteration 12 with loss tensor(0.0126, device='cuda:0', dtype=torch.float64)
+Training at Epoch 108 iteration 16 with loss tensor(0.0118, device='cuda:0', dtype=torch.float64)
+Training at Epoch 108 iteration 20 with loss tensor(0.0118, device='cuda:0', dtype=torch.float64)
+Training at Epoch 108 iteration 24 with loss tensor(0.0114, device='cuda:0', dtype=torch.float64)
+Training at Epoch 108 iteration 28 with loss tensor(0.0114, device='cuda:0', dtype=torch.float64)
+Precision:  0.8858427928892697
+Recall:  0.903056768558952
+F1:  0.8943664586366953
+max f1:  0.9048967453000104
+Training at Epoch 109 iteration 4 with loss tensor(0.0084, device='cuda:0', dtype=torch.float64)
+Training at Epoch 109 iteration 8 with loss tensor(0.0102, device='cuda:0', dtype=torch.float64)
+Training at Epoch 109 iteration 12 with loss tensor(0.0096, device='cuda:0', dtype=torch.float64)
+Training at Epoch 109 iteration 16 with loss tensor(0.0099, device='cuda:0', dtype=torch.float64)
+Training at Epoch 109 iteration 20 with loss tensor(0.0105, device='cuda:0', dtype=torch.float64)
+Training at Epoch 109 iteration 24 with loss tensor(0.0111, device='cuda:0', dtype=torch.float64)
+Training at Epoch 109 iteration 28 with loss tensor(0.0113, device='cuda:0', dtype=torch.float64)
+Precision:  0.8913043478260869
+Recall:  0.8932461873638344
+F1:  0.8922737110998928
+max f1:  0.9048967453000104
+Training at Epoch 110 iteration 4 with loss tensor(0.0101, device='cuda:0', dtype=torch.float64)
+Training at Epoch 110 iteration 8 with loss tensor(0.0100, device='cuda:0', dtype=torch.float64)
+Training at Epoch 110 iteration 12 with loss tensor(0.0103, device='cuda:0', dtype=torch.float64)
+Training at Epoch 110 iteration 16 with loss tensor(0.0116, device='cuda:0', dtype=torch.float64)
+Training at Epoch 110 iteration 20 with loss tensor(0.0118, device='cuda:0', dtype=torch.float64)
+Training at Epoch 110 iteration 24 with loss tensor(0.0113, device='cuda:0', dtype=torch.float64)
+Training at Epoch 110 iteration 28 with loss tensor(0.0113, device='cuda:0', dtype=torch.float64)
+Precision:  0.888672719412019
+Recall:  0.8954476148987148
+F1:  0.8920468039024667
+max f1:  0.9048967453000104
+Training at Epoch 111 iteration 4 with loss tensor(0.0078, device='cuda:0', dtype=torch.float64)
+Training at Epoch 111 iteration 8 with loss tensor(0.0093, device='cuda:0', dtype=torch.float64)
+Training at Epoch 111 iteration 12 with loss tensor(0.0111, device='cuda:0', dtype=torch.float64)
+Training at Epoch 111 iteration 16 with loss tensor(0.0114, device='cuda:0', dtype=torch.float64)
+Training at Epoch 111 iteration 20 with loss tensor(0.0120, device='cuda:0', dtype=torch.float64)
+Training at Epoch 111 iteration 24 with loss tensor(0.0118, device='cuda:0', dtype=torch.float64)
+Training at Epoch 111 iteration 28 with loss tensor(0.0119, device='cuda:0', dtype=torch.float64)
+Precision:  0.884327560401967
+Recall:  0.9016786570743405
+F1:  0.8929183256087833
+max f1:  0.9048967453000104
+Training at Epoch 112 iteration 4 with loss tensor(0.0097, device='cuda:0', dtype=torch.float64)
+Training at Epoch 112 iteration 8 with loss tensor(0.0117, device='cuda:0', dtype=torch.float64)
+Training at Epoch 112 iteration 12 with loss tensor(0.0111, device='cuda:0', dtype=torch.float64)
+Training at Epoch 112 iteration 16 with loss tensor(0.0109, device='cuda:0', dtype=torch.float64)
+Training at Epoch 112 iteration 20 with loss tensor(0.0108, device='cuda:0', dtype=torch.float64)
+Training at Epoch 112 iteration 24 with loss tensor(0.0112, device='cuda:0', dtype=torch.float64)
+Training at Epoch 112 iteration 28 with loss tensor(0.0111, device='cuda:0', dtype=torch.float64)
+Precision:  0.8867195880712293
+Recall:  0.8982829819604434
+F1:  0.8924633307273739
+max f1:  0.9048967453000104
+Training at Epoch 113 iteration 4 with loss tensor(0.0117, device='cuda:0', dtype=torch.float64)
+Training at Epoch 113 iteration 8 with loss tensor(0.0113, device='cuda:0', dtype=torch.float64)
+Training at Epoch 113 iteration 12 with loss tensor(0.0106, device='cuda:0', dtype=torch.float64)
+Training at Epoch 113 iteration 16 with loss tensor(0.0107, device='cuda:0', dtype=torch.float64)
+Training at Epoch 113 iteration 20 with loss tensor(0.0105, device='cuda:0', dtype=torch.float64)
+Training at Epoch 113 iteration 24 with loss tensor(0.0104, device='cuda:0', dtype=torch.float64)
+Training at Epoch 113 iteration 28 with loss tensor(0.0105, device='cuda:0', dtype=torch.float64)
+Precision:  0.8880500431406385
+Recall:  0.8973408892763731
+F1:  0.892670792294826
+max f1:  0.9048967453000104
+Training at Epoch 114 iteration 4 with loss tensor(0.0103, device='cuda:0', dtype=torch.float64)
+Training at Epoch 114 iteration 8 with loss tensor(0.0098, device='cuda:0', dtype=torch.float64)
+Training at Epoch 114 iteration 12 with loss tensor(0.0115, device='cuda:0', dtype=torch.float64)
+Training at Epoch 114 iteration 16 with loss tensor(0.0113, device='cuda:0', dtype=torch.float64)
+Training at Epoch 114 iteration 20 with loss tensor(0.0114, device='cuda:0', dtype=torch.float64)
+Training at Epoch 114 iteration 24 with loss tensor(0.0115, device='cuda:0', dtype=torch.float64)
+Training at Epoch 114 iteration 28 with loss tensor(0.0111, device='cuda:0', dtype=torch.float64)
+Precision:  0.8840455228687997
+Recall:  0.9010724447362661
+F1:  0.892477280232199
+max f1:  0.9048967453000104
+Training at Epoch 115 iteration 4 with loss tensor(0.0098, device='cuda:0', dtype=torch.float64)
+Training at Epoch 115 iteration 8 with loss tensor(0.0130, device='cuda:0', dtype=torch.float64)
+Training at Epoch 115 iteration 12 with loss tensor(0.0122, device='cuda:0', dtype=torch.float64)
+Training at Epoch 115 iteration 16 with loss tensor(0.0118, device='cuda:0', dtype=torch.float64)
+Training at Epoch 115 iteration 20 with loss tensor(0.0115, device='cuda:0', dtype=torch.float64)
+Training at Epoch 115 iteration 24 with loss tensor(0.0112, device='cuda:0', dtype=torch.float64)
+Training at Epoch 115 iteration 28 with loss tensor(0.0119, device='cuda:0', dtype=torch.float64)
+Precision:  0.8880292284547604
+Recall:  0.8992383025027203
+F1:  0.8935981159369015
+max f1:  0.9048967453000104
+Training at Epoch 116 iteration 4 with loss tensor(0.0119, device='cuda:0', dtype=torch.float64)
+Training at Epoch 116 iteration 8 with loss tensor(0.0118, device='cuda:0', dtype=torch.float64)
+Training at Epoch 116 iteration 12 with loss tensor(0.0106, device='cuda:0', dtype=torch.float64)
+Training at Epoch 116 iteration 16 with loss tensor(0.0105, device='cuda:0', dtype=torch.float64)
+Training at Epoch 116 iteration 20 with loss tensor(0.0108, device='cuda:0', dtype=torch.float64)
+Training at Epoch 116 iteration 24 with loss tensor(0.0107, device='cuda:0', dtype=torch.float64)
+Training at Epoch 116 iteration 28 with loss tensor(0.0107, device='cuda:0', dtype=torch.float64)
+Precision:  0.8851756640959726
+Recall:  0.9006102877070619
+F1:  0.8928257748863778
+max f1:  0.9048967453000104
+Training at Epoch 117 iteration 4 with loss tensor(0.0132, device='cuda:0', dtype=torch.float64)
+Training at Epoch 117 iteration 8 with loss tensor(0.0108, device='cuda:0', dtype=torch.float64)
+Training at Epoch 117 iteration 12 with loss tensor(0.0108, device='cuda:0', dtype=torch.float64)
+Training at Epoch 117 iteration 16 with loss tensor(0.0110, device='cuda:0', dtype=torch.float64)
+Training at Epoch 117 iteration 20 with loss tensor(0.0112, device='cuda:0', dtype=torch.float64)
+Training at Epoch 117 iteration 24 with loss tensor(0.0116, device='cuda:0', dtype=torch.float64)
+Training at Epoch 117 iteration 28 with loss tensor(0.0115, device='cuda:0', dtype=torch.float64)
+Precision:  0.8855254743125133
+Recall:  0.9022589052997394
+F1:  0.8938133784733464
+max f1:  0.9048967453000104
+Training at Epoch 118 iteration 4 with loss tensor(0.0120, device='cuda:0', dtype=torch.float64)
+Training at Epoch 118 iteration 8 with loss tensor(0.0112, device='cuda:0', dtype=torch.float64)
+Training at Epoch 118 iteration 12 with loss tensor(0.0115, device='cuda:0', dtype=torch.float64)
+Training at Epoch 118 iteration 16 with loss tensor(0.0118, device='cuda:0', dtype=torch.float64)
+Training at Epoch 118 iteration 20 with loss tensor(0.0120, device='cuda:0', dtype=torch.float64)
+Training at Epoch 118 iteration 24 with loss tensor(0.0118, device='cuda:0', dtype=torch.float64)
+Training at Epoch 118 iteration 28 with loss tensor(0.0122, device='cuda:0', dtype=torch.float64)
+Precision:  0.8860624198375374
+Recall:  0.9026567944250871
+F1:  0.894282132190023
+max f1:  0.9048967453000104
+Training at Epoch 119 iteration 4 with loss tensor(0.0100, device='cuda:0', dtype=torch.float64)
+Training at Epoch 119 iteration 8 with loss tensor(0.0114, device='cuda:0', dtype=torch.float64)
+Training at Epoch 119 iteration 12 with loss tensor(0.0121, device='cuda:0', dtype=torch.float64)
+Training at Epoch 119 iteration 16 with loss tensor(0.0113, device='cuda:0', dtype=torch.float64)
+Training at Epoch 119 iteration 20 with loss tensor(0.0112, device='cuda:0', dtype=torch.float64)
+Training at Epoch 119 iteration 24 with loss tensor(0.0113, device='cuda:0', dtype=torch.float64)
+Training at Epoch 119 iteration 28 with loss tensor(0.0111, device='cuda:0', dtype=torch.float64)
+Precision:  0.889442878820724
+Recall:  0.8956559703121589
+F1:  0.8925381121446883
+max f1:  0.9048967453000104
+Training at Epoch 120 iteration 4 with loss tensor(0.0097, device='cuda:0', dtype=torch.float64)
+Training at Epoch 120 iteration 8 with loss tensor(0.0108, device='cuda:0', dtype=torch.float64)
+Training at Epoch 120 iteration 12 with loss tensor(0.0108, device='cuda:0', dtype=torch.float64)
+Training at Epoch 120 iteration 16 with loss tensor(0.0112, device='cuda:0', dtype=torch.float64)
+Training at Epoch 120 iteration 20 with loss tensor(0.0117, device='cuda:0', dtype=torch.float64)
+Training at Epoch 120 iteration 24 with loss tensor(0.0117, device='cuda:0', dtype=torch.float64)
+Training at Epoch 120 iteration 28 with loss tensor(0.0120, device='cuda:0', dtype=torch.float64)
+Precision:  0.8861141011840689
+Recall:  0.8994755244755245
+F1:  0.89274432163114
+max f1:  0.9048967453000104
+Precision:  0.9108084358523726
+Recall:  0.9003257328990228
+F1:  0.9055362478602063
